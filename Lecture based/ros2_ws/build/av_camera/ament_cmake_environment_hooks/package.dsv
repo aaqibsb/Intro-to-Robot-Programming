@@ -1,0 +1,4 @@
+source;share/av_camera/local_setup.bash
+source;share/av_camera/local_setup.dsv
+source;share/av_camera/local_setup.sh
+source;share/av_camera/local_setup.zsh

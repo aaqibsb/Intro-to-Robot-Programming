@@ -1,0 +1,4 @@
+source;share/target_reacher/local_setup.bash
+source;share/target_reacher/local_setup.dsv
+source;share/target_reacher/local_setup.sh
+source;share/target_reacher/local_setup.zsh

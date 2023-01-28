@@ -1,0 +1,140 @@
+[0.044s] Invoking command in '/home/dawn/final_ws/build/final_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake /home/dawn/final_ws/src/enpm809y_FinalFall2022/final/final_plugins -DCMAKE_INSTALL_PREFIX=/home/dawn/final_ws/install/final_plugins
+[0.421s] -- The C compiler identification is GNU 9.4.0
+[0.421s] -- The CXX compiler identification is GNU 9.4.0
+[0.421s] -- Check for working C compiler: /usr/bin/cc
+[0.421s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.421s] -- Detecting C compiler ABI info
+[0.421s] -- Detecting C compiler ABI info - done
+[0.421s] -- Detecting C compile features
+[0.421s] -- Detecting C compile features - done
+[0.422s] -- Check for working CXX compiler: /usr/bin/c++
+[0.422s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.422s] -- Detecting CXX compiler ABI info
+[0.422s] -- Detecting CXX compiler ABI info - done
+[0.422s] -- Detecting CXX compile features
+[0.422s] -- Detecting CXX compile features - done
+[0.422s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.422s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.422s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.450s] -- Found gazebo_msgs: 3.5.2 (/opt/ros/galactic/share/gazebo_msgs/cmake)
+[0.472s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.477s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.533s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.563s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.623s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.834s] -- Found gazebo_ros: 3.5.2 (/opt/ros/galactic/share/gazebo_ros/cmake)
+[0.877s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.880s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.896s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.897s] -- Looking for pthread.h
+[0.953s] -- Looking for pthread.h - found
+[0.953s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.010s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.010s] -- Looking for pthread_create in pthreads
+[1.052s] -- Looking for pthread_create in pthreads - not found
+[1.052s] -- Looking for pthread_create in pthread
+[1.105s] -- Looking for pthread_create in pthread - found
+[1.106s] -- Found Threads: TRUE  
+[1.217s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.218s] -- Checking for module 'bullet>=2.82'
+[1.229s] --   Found bullet, version 2.88
+[1.317s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.358s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.403s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.429s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.451s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.465s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.468s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.473s] -- Searching for dependencies of ignition-math6
+[1.474s] -- Looking for OGRE...
+[1.474s] -- OGRE_PREFIX_WATCH changed.
+[1.478s] -- Checking for module 'OGRE'
+[1.489s] --   Found OGRE, version 1.9.0
+[1.517s] -- Found Ogre Ghadamon (1.9.0)
+[1.523s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.532s] -- Looking for OGRE_Paging...
+[1.541s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.541s] -- Looking for OGRE_Terrain...
+[1.548s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.548s] -- Looking for OGRE_Property...
+[1.555s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.555s] -- Looking for OGRE_RTShaderSystem...
+[1.562s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.562s] -- Looking for OGRE_Volume...
+[1.568s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.568s] -- Looking for OGRE_Overlay...
+[1.575s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.819s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.821s] -- Looking for ignition-transport8 -- found version 8.3.0
+[1.821s] -- Searching for dependencies of ignition-transport8
+[1.840s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.853s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.858s] -- Checking for module 'libzmq >= 4'
+[1.876s] --   Found libzmq , version 4.3.2
+[1.917s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.924s] -- Checking for module 'uuid'
+[1.940s] --   Found uuid, version 2.34.0
+[1.972s] -- Found UUID: TRUE  
+[1.975s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.975s] -- Searching for dependencies of ignition-msgs5
+[1.996s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.001s] -- Checking for module 'tinyxml2'
+[2.019s] --   Found tinyxml2, version 6.2.0
+[2.063s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[2.065s] -- Looking for ignition-common3 -- found version 3.14.2
+[2.066s] -- Searching for dependencies of ignition-common3
+[2.066s] -- Looking for dlfcn.h - found
+[2.068s] -- Looking for libdl - found
+[2.069s] -- Found DL: TRUE  
+[2.079s] -- Searching for <ignition-common3> component [graphics]
+[2.081s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[2.082s] -- Searching for dependencies of ignition-common3-graphics
+[2.082s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.085s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[2.085s] -- Searching for dependencies of ignition-fuel_tools4
+[2.160s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[2.168s] -- Checking for module 'jsoncpp'
+[2.185s] --   Found jsoncpp, version 1.7.4
+[2.231s] -- Found JSONCPP: TRUE  
+[2.236s] -- Checking for module 'libzip'
+[2.252s] --   Found libzip, version 1.5.1
+[2.282s] -- Found ZIP: TRUE  
+[2.283s] -- Looking for ignition-common3 -- found version 3.14.2
+[2.283s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.283s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[2.284s] -- Gazebo version: 11.11
+[2.359s] -- Configuring done
+[2.383s] -- Generating done
+[2.386s] -- Build files have been written to: /home/dawn/final_ws/build/final_plugins
+[2.400s] Invoked command in '/home/dawn/final_ws/build/final_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake /home/dawn/final_ws/src/enpm809y_FinalFall2022/final/final_plugins -DCMAKE_INSTALL_PREFIX=/home/dawn/final_ws/install/final_plugins
+[2.403s] Invoking command in '/home/dawn/final_ws/build/final_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/final_plugins -- -j16 -l16
+[2.439s] [35m[1mScanning dependencies of target disable_shadows_plugin[0m
+[2.513s] [ 50%] [32mBuilding CXX object CMakeFiles/disable_shadows_plugin.dir/src/disable_shadows_plugin.cpp.o[0m
+[9.074s] [100%] [32m[1mLinking CXX shared library libdisable_shadows_plugin.so[0m
+[9.268s] [100%] Built target disable_shadows_plugin
+[9.278s] Invoked command in '/home/dawn/final_ws/build/final_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/final_plugins -- -j16 -l16
+[9.298s] Invoking command in '/home/dawn/final_ws/build/final_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/final_plugins
+[9.305s] -- Install configuration: ""
+[9.305s] -- Installing: /home/dawn/final_ws/install/final_plugins/share/final_plugins/environment/library_path.sh
+[9.305s] -- Installing: /home/dawn/final_ws/install/final_plugins/share/final_plugins/environment/library_path.dsv
+[9.305s] -- Installing: /home/dawn/final_ws/install/final_plugins/share/ament_index/resource_index/package_run_dependencies/final_plugins
+[9.305s] -- Installing: /home/dawn/final_ws/install/final_plugins/share/ament_index/resource_index/parent_prefix_path/final_plugins
+[9.306s] -- Installing: /home/dawn/final_ws/install/final_plugins/share/final_plugins/environment/ament_prefix_path.sh
+[9.306s] -- Installing: /home/dawn/final_ws/install/final_plugins/share/final_plugins/environment/ament_prefix_path.dsv
+[9.306s] -- Installing: /home/dawn/final_ws/install/final_plugins/share/final_plugins/environment/path.sh
+[9.306s] -- Installing: /home/dawn/final_ws/install/final_plugins/share/final_plugins/environment/path.dsv
+[9.306s] -- Installing: /home/dawn/final_ws/install/final_plugins/share/final_plugins/local_setup.bash
+[9.306s] -- Installing: /home/dawn/final_ws/install/final_plugins/share/final_plugins/local_setup.sh
+[9.306s] -- Installing: /home/dawn/final_ws/install/final_plugins/share/final_plugins/local_setup.zsh
+[9.306s] -- Installing: /home/dawn/final_ws/install/final_plugins/share/final_plugins/local_setup.dsv
+[9.306s] -- Installing: /home/dawn/final_ws/install/final_plugins/share/final_plugins/package.dsv
+[9.306s] -- Installing: /home/dawn/final_ws/install/final_plugins/share/ament_index/resource_index/packages/final_plugins
+[9.307s] -- Installing: /home/dawn/final_ws/install/final_plugins/share/final_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[9.307s] -- Installing: /home/dawn/final_ws/install/final_plugins/share/final_plugins/cmake/final_pluginsConfig.cmake
+[9.307s] -- Installing: /home/dawn/final_ws/install/final_plugins/share/final_plugins/cmake/final_pluginsConfig-version.cmake
+[9.307s] -- Installing: /home/dawn/final_ws/install/final_plugins/share/final_plugins/package.xml
+[9.307s] -- Installing: /home/dawn/final_ws/install/final_plugins/include
+[9.307s] -- Installing: /home/dawn/final_ws/install/final_plugins/include/disable_shadows_plugin.hpp
+[9.307s] -- Installing: /home/dawn/final_ws/install/final_plugins/lib/libdisable_shadows_plugin.so
+[9.308s] -- Set runtime path of "/home/dawn/final_ws/install/final_plugins/lib/libdisable_shadows_plugin.so" to ""
+[9.312s] Invoked command in '/home/dawn/final_ws/build/final_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/final_plugins

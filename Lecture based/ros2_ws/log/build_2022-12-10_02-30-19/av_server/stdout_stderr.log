@@ -1,0 +1,19 @@
+[100%] Built target av_server
+-- Install configuration: ""
+-- Installing: /home/dawn/ros2_ws/install/av_server/lib/av_server/av_server
+-- Set runtime path of "/home/dawn/ros2_ws/install/av_server/lib/av_server/av_server" to ""
+-- Installing: /home/dawn/ros2_ws/install/av_server/share/ament_index/resource_index/package_run_dependencies/av_server
+-- Installing: /home/dawn/ros2_ws/install/av_server/share/ament_index/resource_index/parent_prefix_path/av_server
+-- Installing: /home/dawn/ros2_ws/install/av_server/share/av_server/environment/ament_prefix_path.sh
+-- Installing: /home/dawn/ros2_ws/install/av_server/share/av_server/environment/ament_prefix_path.dsv
+-- Installing: /home/dawn/ros2_ws/install/av_server/share/av_server/environment/path.sh
+-- Installing: /home/dawn/ros2_ws/install/av_server/share/av_server/environment/path.dsv
+-- Installing: /home/dawn/ros2_ws/install/av_server/share/av_server/local_setup.bash
+-- Installing: /home/dawn/ros2_ws/install/av_server/share/av_server/local_setup.sh
+-- Installing: /home/dawn/ros2_ws/install/av_server/share/av_server/local_setup.zsh
+-- Installing: /home/dawn/ros2_ws/install/av_server/share/av_server/local_setup.dsv
+-- Installing: /home/dawn/ros2_ws/install/av_server/share/av_server/package.dsv
+-- Installing: /home/dawn/ros2_ws/install/av_server/share/ament_index/resource_index/packages/av_server
+-- Installing: /home/dawn/ros2_ws/install/av_server/share/av_server/cmake/av_serverConfig.cmake
+-- Installing: /home/dawn/ros2_ws/install/av_server/share/av_server/cmake/av_serverConfig-version.cmake
+-- Installing: /home/dawn/ros2_ws/install/av_server/share/av_server/package.xml

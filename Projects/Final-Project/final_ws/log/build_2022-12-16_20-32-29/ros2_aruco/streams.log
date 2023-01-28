@@ -1,0 +1,44 @@
+[0.842s] Invoking command in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco': PYTHONPATH=/home/dawn/final_ws/build/ros2_aruco/prefix_override:/home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/ros2_aruco build --build-base /home/dawn/final_ws/build/ros2_aruco/build install --record /home/dawn/final_ws/build/ros2_aruco/install.log --install-scripts $base/lib/ros2_aruco --single-version-externally-managed
+[1.006s] running egg_info
+[1.006s] creating ../../../../../build/ros2_aruco/ros2_aruco.egg-info
+[1.006s] writing ../../../../../build/ros2_aruco/ros2_aruco.egg-info/PKG-INFO
+[1.007s] writing dependency_links to ../../../../../build/ros2_aruco/ros2_aruco.egg-info/dependency_links.txt
+[1.007s] writing entry points to ../../../../../build/ros2_aruco/ros2_aruco.egg-info/entry_points.txt
+[1.007s] writing requirements to ../../../../../build/ros2_aruco/ros2_aruco.egg-info/requires.txt
+[1.007s] writing top-level names to ../../../../../build/ros2_aruco/ros2_aruco.egg-info/top_level.txt
+[1.008s] writing manifest file '../../../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[1.036s] reading manifest file '../../../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[1.037s] writing manifest file '../../../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[1.037s] running build
+[1.037s] running build_py
+[1.037s] creating /home/dawn/final_ws/build/ros2_aruco/build
+[1.037s] creating /home/dawn/final_ws/build/ros2_aruco/build/lib
+[1.038s] creating /home/dawn/final_ws/build/ros2_aruco/build/lib/ros2_aruco
+[1.038s] copying ros2_aruco/aruco_node.py -> /home/dawn/final_ws/build/ros2_aruco/build/lib/ros2_aruco
+[1.038s] copying ros2_aruco/aruco_generate_marker.py -> /home/dawn/final_ws/build/ros2_aruco/build/lib/ros2_aruco
+[1.038s] copying ros2_aruco/__init__.py -> /home/dawn/final_ws/build/ros2_aruco/build/lib/ros2_aruco
+[1.038s] copying ros2_aruco/transformations.py -> /home/dawn/final_ws/build/ros2_aruco/build/lib/ros2_aruco
+[1.038s] running install
+[1.039s] running install_lib
+[1.040s] creating /home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco
+[1.040s] copying /home/dawn/final_ws/build/ros2_aruco/build/lib/ros2_aruco/aruco_node.py -> /home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco
+[1.040s] copying /home/dawn/final_ws/build/ros2_aruco/build/lib/ros2_aruco/aruco_generate_marker.py -> /home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco
+[1.040s] copying /home/dawn/final_ws/build/ros2_aruco/build/lib/ros2_aruco/__init__.py -> /home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco
+[1.040s] copying /home/dawn/final_ws/build/ros2_aruco/build/lib/ros2_aruco/transformations.py -> /home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco
+[1.040s] byte-compiling /home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco/aruco_node.py to aruco_node.cpython-38.pyc
+[1.042s] byte-compiling /home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco/aruco_generate_marker.py to aruco_generate_marker.cpython-38.pyc
+[1.043s] byte-compiling /home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco/__init__.py to __init__.cpython-38.pyc
+[1.043s] byte-compiling /home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco/transformations.py to transformations.cpython-38.pyc
+[1.051s] running install_data
+[1.051s] creating /home/dawn/final_ws/install/ros2_aruco/share/ament_index
+[1.051s] creating /home/dawn/final_ws/install/ros2_aruco/share/ament_index/resource_index
+[1.052s] creating /home/dawn/final_ws/install/ros2_aruco/share/ament_index/resource_index/packages
+[1.052s] copying resource/ros2_aruco -> /home/dawn/final_ws/install/ros2_aruco/share/ament_index/resource_index/packages
+[1.052s] copying package.xml -> /home/dawn/final_ws/install/ros2_aruco/share/ros2_aruco
+[1.052s] running install_egg_info
+[1.053s] Copying ../../../../../build/ros2_aruco/ros2_aruco.egg-info to /home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2_aruco-0.1.0-py3.8.egg-info
+[1.054s] running install_scripts
+[1.071s] Installing aruco_generate_marker script to /home/dawn/final_ws/install/ros2_aruco/lib/ros2_aruco
+[1.071s] Installing aruco_node script to /home/dawn/final_ws/install/ros2_aruco/lib/ros2_aruco
+[1.072s] writing list of installed files to '/home/dawn/final_ws/build/ros2_aruco/install.log'
+[1.100s] Invoked command in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco' returned '0': PYTHONPATH=/home/dawn/final_ws/build/ros2_aruco/prefix_override:/home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/ros2_aruco build --build-base /home/dawn/final_ws/build/ros2_aruco/build install --record /home/dawn/final_ws/build/ros2_aruco/install.log --install-scripts $base/lib/ros2_aruco --single-version-externally-managed

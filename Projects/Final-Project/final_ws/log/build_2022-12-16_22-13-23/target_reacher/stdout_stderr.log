@@ -1,0 +1,27 @@
+[35m[1mScanning dependencies of target target_reacher[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/target_reacher.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/target_reacher.dir/src/target_reacher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable target_reacher[0m
+[100%] Built target target_reacher
+-- Install configuration: ""
+-- Up-to-date: /home/dawn/final_ws/install/target_reacher/include/target_reacher
+-- Installing: /home/dawn/final_ws/install/target_reacher/include/target_reacher/target_reacher.h
+-- Up-to-date: /home/dawn/final_ws/install/target_reacher/share/target_reacher/params
+-- Installing: /home/dawn/final_ws/install/target_reacher/share/target_reacher/params/final_params.yaml
+-- Installing: /home/dawn/final_ws/install/target_reacher/lib/target_reacher/target_reacher
+-- Set runtime path of "/home/dawn/final_ws/install/target_reacher/lib/target_reacher/target_reacher" to ""
+-- Up-to-date: /home/dawn/final_ws/install/target_reacher/share/ament_index/resource_index/package_run_dependencies/target_reacher
+-- Up-to-date: /home/dawn/final_ws/install/target_reacher/share/ament_index/resource_index/parent_prefix_path/target_reacher
+-- Up-to-date: /home/dawn/final_ws/install/target_reacher/share/target_reacher/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dawn/final_ws/install/target_reacher/share/target_reacher/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dawn/final_ws/install/target_reacher/share/target_reacher/environment/path.sh
+-- Up-to-date: /home/dawn/final_ws/install/target_reacher/share/target_reacher/environment/path.dsv
+-- Up-to-date: /home/dawn/final_ws/install/target_reacher/share/target_reacher/local_setup.bash
+-- Up-to-date: /home/dawn/final_ws/install/target_reacher/share/target_reacher/local_setup.sh
+-- Up-to-date: /home/dawn/final_ws/install/target_reacher/share/target_reacher/local_setup.zsh
+-- Up-to-date: /home/dawn/final_ws/install/target_reacher/share/target_reacher/local_setup.dsv
+-- Installing: /home/dawn/final_ws/install/target_reacher/share/target_reacher/package.dsv
+-- Up-to-date: /home/dawn/final_ws/install/target_reacher/share/ament_index/resource_index/packages/target_reacher
+-- Up-to-date: /home/dawn/final_ws/install/target_reacher/share/target_reacher/cmake/target_reacherConfig.cmake
+-- Up-to-date: /home/dawn/final_ws/install/target_reacher/share/target_reacher/cmake/target_reacherConfig-version.cmake
+-- Up-to-date: /home/dawn/final_ws/install/target_reacher/share/target_reacher/package.xml

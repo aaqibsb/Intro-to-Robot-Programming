@@ -1,0 +1,74 @@
+[0.013s] Invoking command in '/home/dawn/final_ws/build/target_reacher': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/bot_controller:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic PYTHONPATH=/home/dawn/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages:/home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake /home/dawn/final_ws/src/enpm809y_FinalFall2022/final/target_reacher -DCMAKE_INSTALL_PREFIX=/home/dawn/final_ws/install/target_reacher
+[0.053s] -- The C compiler identification is GNU 9.4.0
+[0.092s] -- The CXX compiler identification is GNU 9.4.0
+[0.096s] -- Check for working C compiler: /usr/bin/cc
+[0.148s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.149s] -- Detecting C compiler ABI info
+[0.199s] -- Detecting C compiler ABI info - done
+[0.208s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.210s] -- Check for working CXX compiler: /usr/bin/c++
+[0.267s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.268s] -- Detecting CXX compiler ABI info
+[0.326s] -- Detecting CXX compiler ABI info - done
+[0.335s] -- Detecting CXX compile features
+[0.335s] -- Detecting CXX compile features - done
+[0.337s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.357s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.357s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.417s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.454s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.459s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.515s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.538s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.597s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.641s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.644s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.658s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.658s] -- Looking for pthread.h
+[0.712s] -- Looking for pthread.h - found
+[0.712s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.768s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.768s] -- Looking for pthread_create in pthreads
+[0.815s] -- Looking for pthread_create in pthreads - not found
+[0.815s] -- Looking for pthread_create in pthread
+[0.873s] -- Looking for pthread_create in pthread - found
+[0.873s] -- Found Threads: TRUE  
+[1.002s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.025s] -- Found bot_controller: 0.0.0 (/home/dawn/final_ws/install/bot_controller/share/bot_controller/cmake)
+[1.351s] -- Found ros2_aruco_interfaces: 0.1.0 (/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake)
+[1.440s] -- Configuring done
+[1.449s] -- Generating done
+[1.450s] -- Build files have been written to: /home/dawn/final_ws/build/target_reacher
+[1.457s] Invoked command in '/home/dawn/final_ws/build/target_reacher' returned '0': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/bot_controller:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic PYTHONPATH=/home/dawn/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages:/home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake /home/dawn/final_ws/src/enpm809y_FinalFall2022/final/target_reacher -DCMAKE_INSTALL_PREFIX=/home/dawn/final_ws/install/target_reacher
+[1.459s] Invoking command in '/home/dawn/final_ws/build/target_reacher': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/bot_controller:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic PYTHONPATH=/home/dawn/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages:/home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/dawn/final_ws/build/target_reacher -- -j16 -l16
+[1.491s] [35m[1mScanning dependencies of target target_reacher[0m
+[1.523s] [ 66%] [32mBuilding CXX object CMakeFiles/target_reacher.dir/src/main.cpp.o[0m
+[1.524s] [ 66%] [32mBuilding CXX object CMakeFiles/target_reacher.dir/src/target_reacher.cpp.o[0m
+[9.647s] [100%] [32m[1mLinking CXX executable target_reacher[0m
+[9.940s] [100%] Built target target_reacher
+[9.951s] Invoked command in '/home/dawn/final_ws/build/target_reacher' returned '0': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/bot_controller:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic PYTHONPATH=/home/dawn/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages:/home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/dawn/final_ws/build/target_reacher -- -j16 -l16
+[9.977s] Invoking command in '/home/dawn/final_ws/build/target_reacher': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/bot_controller:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic PYTHONPATH=/home/dawn/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages:/home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/dawn/final_ws/build/target_reacher
+[9.986s] -- Install configuration: ""
+[9.986s] -- Installing: /home/dawn/final_ws/install/target_reacher/include/target_reacher
+[9.986s] -- Installing: /home/dawn/final_ws/install/target_reacher/include/target_reacher/target_reacher.h
+[9.987s] -- Installing: /home/dawn/final_ws/install/target_reacher/share/target_reacher/params
+[9.987s] -- Installing: /home/dawn/final_ws/install/target_reacher/share/target_reacher/params/final_params.yaml
+[9.987s] -- Installing: /home/dawn/final_ws/install/target_reacher/lib/target_reacher/target_reacher
+[9.990s] -- Set runtime path of "/home/dawn/final_ws/install/target_reacher/lib/target_reacher/target_reacher" to ""
+[9.990s] -- Installing: /home/dawn/final_ws/install/target_reacher/share/ament_index/resource_index/package_run_dependencies/target_reacher
+[9.990s] -- Installing: /home/dawn/final_ws/install/target_reacher/share/ament_index/resource_index/parent_prefix_path/target_reacher
+[9.990s] -- Installing: /home/dawn/final_ws/install/target_reacher/share/target_reacher/environment/ament_prefix_path.sh
+[9.990s] -- Installing: /home/dawn/final_ws/install/target_reacher/share/target_reacher/environment/ament_prefix_path.dsv
+[9.991s] -- Installing: /home/dawn/final_ws/install/target_reacher/share/target_reacher/environment/path.sh
+[9.991s] -- Installing: /home/dawn/final_ws/install/target_reacher/share/target_reacher/environment/path.dsv
+[9.991s] -- Installing: /home/dawn/final_ws/install/target_reacher/share/target_reacher/local_setup.bash
+[9.991s] -- Installing: /home/dawn/final_ws/install/target_reacher/share/target_reacher/local_setup.sh
+[9.991s] -- Installing: /home/dawn/final_ws/install/target_reacher/share/target_reacher/local_setup.zsh
+[9.991s] -- Installing: /home/dawn/final_ws/install/target_reacher/share/target_reacher/local_setup.dsv
+[9.991s] -- Installing: /home/dawn/final_ws/install/target_reacher/share/target_reacher/package.dsv
+[9.991s] -- Installing: /home/dawn/final_ws/install/target_reacher/share/ament_index/resource_index/packages/target_reacher
+[9.991s] -- Installing: /home/dawn/final_ws/install/target_reacher/share/target_reacher/cmake/target_reacherConfig.cmake
+[9.991s] -- Installing: /home/dawn/final_ws/install/target_reacher/share/target_reacher/cmake/target_reacherConfig-version.cmake
+[9.991s] -- Installing: /home/dawn/final_ws/install/target_reacher/share/target_reacher/package.xml
+[9.995s] Invoked command in '/home/dawn/final_ws/build/target_reacher' returned '0': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/bot_controller:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic PYTHONPATH=/home/dawn/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages:/home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/dawn/final_ws/build/target_reacher

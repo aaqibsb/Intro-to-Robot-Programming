@@ -1,0 +1,37 @@
+[0.736s] Invoking command in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/tb3_bringup/tb3_gazebo_spawner': PYTHONPATH=/home/dawn/final_ws/build/tb3_gazebo_spawner/prefix_override:/home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/tb3_gazebo_spawner build --build-base /home/dawn/final_ws/build/tb3_gazebo_spawner/build install --record /home/dawn/final_ws/build/tb3_gazebo_spawner/install.log --install-scripts $base/lib/tb3_gazebo_spawner --single-version-externally-managed
+[0.898s] running egg_info
+[0.899s] creating ../../../../../build/tb3_gazebo_spawner/tb3_gazebo_spawner.egg-info
+[0.899s] writing ../../../../../build/tb3_gazebo_spawner/tb3_gazebo_spawner.egg-info/PKG-INFO
+[0.899s] writing dependency_links to ../../../../../build/tb3_gazebo_spawner/tb3_gazebo_spawner.egg-info/dependency_links.txt
+[0.899s] writing entry points to ../../../../../build/tb3_gazebo_spawner/tb3_gazebo_spawner.egg-info/entry_points.txt
+[0.899s] writing requirements to ../../../../../build/tb3_gazebo_spawner/tb3_gazebo_spawner.egg-info/requires.txt
+[0.899s] writing top-level names to ../../../../../build/tb3_gazebo_spawner/tb3_gazebo_spawner.egg-info/top_level.txt
+[0.900s] writing manifest file '../../../../../build/tb3_gazebo_spawner/tb3_gazebo_spawner.egg-info/SOURCES.txt'
+[0.927s] reading manifest file '../../../../../build/tb3_gazebo_spawner/tb3_gazebo_spawner.egg-info/SOURCES.txt'
+[0.927s] writing manifest file '../../../../../build/tb3_gazebo_spawner/tb3_gazebo_spawner.egg-info/SOURCES.txt'
+[0.927s] running build
+[0.927s] running build_py
+[0.928s] creating /home/dawn/final_ws/build/tb3_gazebo_spawner/build
+[0.928s] creating /home/dawn/final_ws/build/tb3_gazebo_spawner/build/lib
+[0.928s] creating /home/dawn/final_ws/build/tb3_gazebo_spawner/build/lib/tb3_gazebo_spawner
+[0.928s] copying tb3_gazebo_spawner/__init__.py -> /home/dawn/final_ws/build/tb3_gazebo_spawner/build/lib/tb3_gazebo_spawner
+[0.928s] copying tb3_gazebo_spawner/tb3_gazebo_spawner.py -> /home/dawn/final_ws/build/tb3_gazebo_spawner/build/lib/tb3_gazebo_spawner
+[0.928s] running install
+[0.928s] running install_lib
+[0.929s] creating /home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages/tb3_gazebo_spawner
+[0.929s] copying /home/dawn/final_ws/build/tb3_gazebo_spawner/build/lib/tb3_gazebo_spawner/__init__.py -> /home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages/tb3_gazebo_spawner
+[0.929s] copying /home/dawn/final_ws/build/tb3_gazebo_spawner/build/lib/tb3_gazebo_spawner/tb3_gazebo_spawner.py -> /home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages/tb3_gazebo_spawner
+[0.929s] byte-compiling /home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages/tb3_gazebo_spawner/__init__.py to __init__.cpython-38.pyc
+[0.930s] byte-compiling /home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages/tb3_gazebo_spawner/tb3_gazebo_spawner.py to tb3_gazebo_spawner.cpython-38.pyc
+[0.931s] running install_data
+[0.931s] creating /home/dawn/final_ws/install/tb3_gazebo_spawner/share/ament_index
+[0.931s] creating /home/dawn/final_ws/install/tb3_gazebo_spawner/share/ament_index/resource_index
+[0.931s] creating /home/dawn/final_ws/install/tb3_gazebo_spawner/share/ament_index/resource_index/packages
+[0.931s] copying resource/tb3_gazebo_spawner -> /home/dawn/final_ws/install/tb3_gazebo_spawner/share/ament_index/resource_index/packages
+[0.932s] copying package.xml -> /home/dawn/final_ws/install/tb3_gazebo_spawner/share/tb3_gazebo_spawner
+[0.932s] running install_egg_info
+[0.933s] Copying ../../../../../build/tb3_gazebo_spawner/tb3_gazebo_spawner.egg-info to /home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages/tb3_gazebo_spawner-0.3.0-py3.8.egg-info
+[0.933s] running install_scripts
+[0.947s] Installing tb3_gazebo_spawner script to /home/dawn/final_ws/install/tb3_gazebo_spawner/lib/tb3_gazebo_spawner
+[0.947s] writing list of installed files to '/home/dawn/final_ws/build/tb3_gazebo_spawner/install.log'
+[0.972s] Invoked command in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/tb3_bringup/tb3_gazebo_spawner' returned '0': PYTHONPATH=/home/dawn/final_ws/build/tb3_gazebo_spawner/prefix_override:/home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/tb3_gazebo_spawner build --build-base /home/dawn/final_ws/build/tb3_gazebo_spawner/build install --record /home/dawn/final_ws/build/tb3_gazebo_spawner/install.log --install-scripts $base/lib/tb3_gazebo_spawner --single-version-externally-managed

@@ -1,0 +1,15 @@
+material three
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture 3.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

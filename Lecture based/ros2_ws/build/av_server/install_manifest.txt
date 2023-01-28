@@ -1,0 +1,16 @@
+/home/dawn/ros2_ws/install/av_server/lib/av_server/av_server
+/home/dawn/ros2_ws/install/av_server/share/ament_index/resource_index/package_run_dependencies/av_server
+/home/dawn/ros2_ws/install/av_server/share/ament_index/resource_index/parent_prefix_path/av_server
+/home/dawn/ros2_ws/install/av_server/share/av_server/environment/ament_prefix_path.sh
+/home/dawn/ros2_ws/install/av_server/share/av_server/environment/ament_prefix_path.dsv
+/home/dawn/ros2_ws/install/av_server/share/av_server/environment/path.sh
+/home/dawn/ros2_ws/install/av_server/share/av_server/environment/path.dsv
+/home/dawn/ros2_ws/install/av_server/share/av_server/local_setup.bash
+/home/dawn/ros2_ws/install/av_server/share/av_server/local_setup.sh
+/home/dawn/ros2_ws/install/av_server/share/av_server/local_setup.zsh
+/home/dawn/ros2_ws/install/av_server/share/av_server/local_setup.dsv
+/home/dawn/ros2_ws/install/av_server/share/av_server/package.dsv
+/home/dawn/ros2_ws/install/av_server/share/ament_index/resource_index/packages/av_server
+/home/dawn/ros2_ws/install/av_server/share/av_server/cmake/av_serverConfig.cmake
+/home/dawn/ros2_ws/install/av_server/share/av_server/cmake/av_serverConfig-version.cmake
+/home/dawn/ros2_ws/install/av_server/share/av_server/package.xml

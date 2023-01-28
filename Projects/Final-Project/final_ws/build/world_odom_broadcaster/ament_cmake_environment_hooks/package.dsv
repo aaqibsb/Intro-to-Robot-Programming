@@ -1,0 +1,4 @@
+source;share/world_odom_broadcaster/local_setup.bash
+source;share/world_odom_broadcaster/local_setup.dsv
+source;share/world_odom_broadcaster/local_setup.sh
+source;share/world_odom_broadcaster/local_setup.zsh

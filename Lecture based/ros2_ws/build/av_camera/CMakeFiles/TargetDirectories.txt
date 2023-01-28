@@ -1,0 +1,10 @@
+/home/dawn/ros2_ws/build/av_camera/CMakeFiles/install/strip.dir
+/home/dawn/ros2_ws/build/av_camera/CMakeFiles/install/local.dir
+/home/dawn/ros2_ws/build/av_camera/CMakeFiles/install.dir
+/home/dawn/ros2_ws/build/av_camera/CMakeFiles/list_install_components.dir
+/home/dawn/ros2_ws/build/av_camera/CMakeFiles/rebuild_cache.dir
+/home/dawn/ros2_ws/build/av_camera/CMakeFiles/edit_cache.dir
+/home/dawn/ros2_ws/build/av_camera/CMakeFiles/test.dir
+/home/dawn/ros2_ws/build/av_camera/CMakeFiles/av_camera.dir
+/home/dawn/ros2_ws/build/av_camera/CMakeFiles/av_camera_uninstall.dir
+/home/dawn/ros2_ws/build/av_camera/CMakeFiles/uninstall.dir

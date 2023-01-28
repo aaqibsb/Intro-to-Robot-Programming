@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>target_reacher</name>
+  <version>0.0.0</version>
+  <description>Main package for the final project</description>
+  <maintainer email="abarodaw@umd.edu">student1</maintainer>
+  <maintainer email="krishnah@umd.edu">student2</maintainer>
+  <maintainer email="achavan1@umd.edu">student3</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>bot_controller</depend>
+  <depend>tf2_ros</depend>
+  <depend>ros2_aruco_interfaces</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

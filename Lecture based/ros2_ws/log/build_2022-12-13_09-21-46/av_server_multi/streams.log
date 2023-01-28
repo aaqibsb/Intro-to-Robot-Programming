@@ -1,0 +1,22 @@
+[0.038s] Invoking command in '/home/dawn/ros2_ws/build/av_server_multi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/ros2_ws/build/av_server_multi -- -j16 -l16
+[0.141s] [100%] Built target av_server_multi
+[0.159s] Invoked command in '/home/dawn/ros2_ws/build/av_server_multi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/ros2_ws/build/av_server_multi -- -j16 -l16
+[0.198s] Invoking command in '/home/dawn/ros2_ws/build/av_server_multi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/ros2_ws/build/av_server_multi
+[0.209s] -- Install configuration: ""
+[0.215s] -- Up-to-date: /home/dawn/ros2_ws/install/av_server_multi/lib/av_server_multi/av_server_multi
+[0.217s] -- Up-to-date: /home/dawn/ros2_ws/install/av_server_multi/share/ament_index/resource_index/package_run_dependencies/av_server_multi
+[0.219s] -- Up-to-date: /home/dawn/ros2_ws/install/av_server_multi/share/ament_index/resource_index/parent_prefix_path/av_server_multi
+[0.219s] -- Up-to-date: /home/dawn/ros2_ws/install/av_server_multi/share/av_server_multi/environment/ament_prefix_path.sh
+[0.219s] -- Up-to-date: /home/dawn/ros2_ws/install/av_server_multi/share/av_server_multi/environment/ament_prefix_path.dsv
+[0.219s] -- Up-to-date: /home/dawn/ros2_ws/install/av_server_multi/share/av_server_multi/environment/path.sh
+[0.219s] -- Up-to-date: /home/dawn/ros2_ws/install/av_server_multi/share/av_server_multi/environment/path.dsv
+[0.220s] -- Up-to-date: /home/dawn/ros2_ws/install/av_server_multi/share/av_server_multi/local_setup.bash
+[0.220s] -- Up-to-date: /home/dawn/ros2_ws/install/av_server_multi/share/av_server_multi/local_setup.sh
+[0.220s] -- Up-to-date: /home/dawn/ros2_ws/install/av_server_multi/share/av_server_multi/local_setup.zsh
+[0.220s] -- Up-to-date: /home/dawn/ros2_ws/install/av_server_multi/share/av_server_multi/local_setup.dsv
+[0.220s] -- Installing: /home/dawn/ros2_ws/install/av_server_multi/share/av_server_multi/package.dsv
+[0.220s] -- Up-to-date: /home/dawn/ros2_ws/install/av_server_multi/share/ament_index/resource_index/packages/av_server_multi
+[0.220s] -- Up-to-date: /home/dawn/ros2_ws/install/av_server_multi/share/av_server_multi/cmake/av_server_multiConfig.cmake
+[0.221s] -- Up-to-date: /home/dawn/ros2_ws/install/av_server_multi/share/av_server_multi/cmake/av_server_multiConfig-version.cmake
+[0.221s] -- Up-to-date: /home/dawn/ros2_ws/install/av_server_multi/share/av_server_multi/package.xml
+[0.246s] Invoked command in '/home/dawn/ros2_ws/build/av_server_multi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/ros2_ws/build/av_server_multi

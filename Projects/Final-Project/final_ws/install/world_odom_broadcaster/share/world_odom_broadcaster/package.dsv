@@ -1,0 +1,8 @@
+source;share/world_odom_broadcaster/hook/cmake_prefix_path.ps1
+source;share/world_odom_broadcaster/hook/cmake_prefix_path.dsv
+source;share/world_odom_broadcaster/hook/cmake_prefix_path.sh
+source;share/world_odom_broadcaster/local_setup.bash
+source;share/world_odom_broadcaster/local_setup.dsv
+source;share/world_odom_broadcaster/local_setup.ps1
+source;share/world_odom_broadcaster/local_setup.sh
+source;share/world_odom_broadcaster/local_setup.zsh

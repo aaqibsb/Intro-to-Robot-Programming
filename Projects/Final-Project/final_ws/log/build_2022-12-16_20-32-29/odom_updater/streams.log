@@ -1,0 +1,71 @@
+[0.039s] Invoking command in '/home/dawn/final_ws/build/odom_updater': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake /home/dawn/final_ws/src/enpm809y_FinalFall2022/final/odom_updater -DCMAKE_INSTALL_PREFIX=/home/dawn/final_ws/install/odom_updater
+[0.414s] -- The C compiler identification is GNU 9.4.0
+[0.414s] -- The CXX compiler identification is GNU 9.4.0
+[0.414s] -- Check for working C compiler: /usr/bin/cc
+[0.414s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.414s] -- Detecting C compiler ABI info
+[0.414s] -- Detecting C compiler ABI info - done
+[0.415s] -- Detecting C compile features
+[0.415s] -- Detecting C compile features - done
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++
+[0.415s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.415s] -- Detecting CXX compiler ABI info
+[0.415s] -- Detecting CXX compiler ABI info - done
+[0.415s] -- Detecting CXX compile features
+[0.415s] -- Detecting CXX compile features - done
+[0.415s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.415s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.415s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.442s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.497s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.505s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.566s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.591s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.652s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.698s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.701s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.716s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.716s] -- Looking for pthread.h
+[0.773s] -- Looking for pthread.h - found
+[0.774s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.831s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.831s] -- Looking for pthread_create in pthreads
+[0.876s] -- Looking for pthread_create in pthreads - not found
+[0.876s] -- Looking for pthread_create in pthread
+[0.931s] -- Looking for pthread_create in pthread - found
+[0.932s] -- Found Threads: TRUE  
+[1.100s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.128s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[1.183s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[1.509s] -- Configuring done
+[1.518s] -- Generating done
+[1.519s] -- Build files have been written to: /home/dawn/final_ws/build/odom_updater
+[1.527s] Invoked command in '/home/dawn/final_ws/build/odom_updater' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake /home/dawn/final_ws/src/enpm809y_FinalFall2022/final/odom_updater -DCMAKE_INSTALL_PREFIX=/home/dawn/final_ws/install/odom_updater
+[1.530s] Invoking command in '/home/dawn/final_ws/build/odom_updater': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/odom_updater -- -j16 -l16
+[1.561s] [35m[1mScanning dependencies of target odom_updater[0m
+[1.591s] [ 50%] [32mBuilding CXX object CMakeFiles/odom_updater.dir/src/odom_updater.cpp.o[0m
+[7.705s] [100%] [32m[1mLinking CXX executable odom_updater[0m
+[7.942s] [100%] Built target odom_updater
+[7.953s] Invoked command in '/home/dawn/final_ws/build/odom_updater' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/odom_updater -- -j16 -l16
+[7.973s] Invoking command in '/home/dawn/final_ws/build/odom_updater': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/odom_updater
+[7.980s] -- Install configuration: ""
+[7.980s] -- Installing: /home/dawn/final_ws/install/odom_updater/lib/odom_updater/odom_updater
+[7.982s] -- Set runtime path of "/home/dawn/final_ws/install/odom_updater/lib/odom_updater/odom_updater" to ""
+[7.983s] -- Installing: /home/dawn/final_ws/install/odom_updater/include/odom_updater
+[7.983s] -- Installing: /home/dawn/final_ws/install/odom_updater/include/odom_updater/odom_updater.h
+[7.983s] -- Installing: /home/dawn/final_ws/install/odom_updater/share/ament_index/resource_index/package_run_dependencies/odom_updater
+[7.983s] -- Installing: /home/dawn/final_ws/install/odom_updater/share/ament_index/resource_index/parent_prefix_path/odom_updater
+[7.983s] -- Installing: /home/dawn/final_ws/install/odom_updater/share/odom_updater/environment/ament_prefix_path.sh
+[7.983s] -- Installing: /home/dawn/final_ws/install/odom_updater/share/odom_updater/environment/ament_prefix_path.dsv
+[7.983s] -- Installing: /home/dawn/final_ws/install/odom_updater/share/odom_updater/environment/path.sh
+[7.983s] -- Installing: /home/dawn/final_ws/install/odom_updater/share/odom_updater/environment/path.dsv
+[7.983s] -- Installing: /home/dawn/final_ws/install/odom_updater/share/odom_updater/local_setup.bash
+[7.984s] -- Installing: /home/dawn/final_ws/install/odom_updater/share/odom_updater/local_setup.sh
+[7.984s] -- Installing: /home/dawn/final_ws/install/odom_updater/share/odom_updater/local_setup.zsh
+[7.984s] -- Installing: /home/dawn/final_ws/install/odom_updater/share/odom_updater/local_setup.dsv
+[7.984s] -- Installing: /home/dawn/final_ws/install/odom_updater/share/odom_updater/package.dsv
+[7.984s] -- Installing: /home/dawn/final_ws/install/odom_updater/share/ament_index/resource_index/packages/odom_updater
+[7.984s] -- Installing: /home/dawn/final_ws/install/odom_updater/share/odom_updater/cmake/odom_updaterConfig.cmake
+[7.984s] -- Installing: /home/dawn/final_ws/install/odom_updater/share/odom_updater/cmake/odom_updaterConfig-version.cmake
+[7.984s] -- Installing: /home/dawn/final_ws/install/odom_updater/share/odom_updater/package.xml
+[7.988s] Invoked command in '/home/dawn/final_ws/build/odom_updater' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/odom_updater

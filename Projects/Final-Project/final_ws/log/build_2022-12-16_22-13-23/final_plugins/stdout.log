@@ -1,0 +1,23 @@
+[100%] Built target disable_shadows_plugin
+-- Install configuration: ""
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/share/final_plugins/environment/library_path.sh
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/share/final_plugins/environment/library_path.dsv
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/share/ament_index/resource_index/package_run_dependencies/final_plugins
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/share/ament_index/resource_index/parent_prefix_path/final_plugins
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/share/final_plugins/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/share/final_plugins/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/share/final_plugins/environment/path.sh
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/share/final_plugins/environment/path.dsv
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/share/final_plugins/local_setup.bash
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/share/final_plugins/local_setup.sh
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/share/final_plugins/local_setup.zsh
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/share/final_plugins/local_setup.dsv
+-- Installing: /home/dawn/final_ws/install/final_plugins/share/final_plugins/package.dsv
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/share/ament_index/resource_index/packages/final_plugins
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/share/final_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/share/final_plugins/cmake/final_pluginsConfig.cmake
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/share/final_plugins/cmake/final_pluginsConfig-version.cmake
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/share/final_plugins/package.xml
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/include
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/include/disable_shadows_plugin.hpp
+-- Up-to-date: /home/dawn/final_ws/install/final_plugins/lib/libdisable_shadows_plugin.so

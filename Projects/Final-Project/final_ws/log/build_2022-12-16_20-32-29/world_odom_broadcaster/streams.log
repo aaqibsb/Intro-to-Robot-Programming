@@ -1,0 +1,71 @@
+[0.380s] Invoking command in '/home/dawn/final_ws/build/world_odom_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake /home/dawn/final_ws/src/enpm809y_FinalFall2022/final/world_odom_broadcaster -DCMAKE_INSTALL_PREFIX=/home/dawn/final_ws/install/world_odom_broadcaster
+[0.420s] -- The C compiler identification is GNU 9.4.0
+[0.459s] -- The CXX compiler identification is GNU 9.4.0
+[0.463s] -- Check for working C compiler: /usr/bin/cc
+[0.513s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.514s] -- Detecting C compiler ABI info
+[0.565s] -- Detecting C compiler ABI info - done
+[0.577s] -- Detecting C compile features
+[0.577s] -- Detecting C compile features - done
+[0.580s] -- Check for working CXX compiler: /usr/bin/c++
+[0.641s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.642s] -- Detecting CXX compiler ABI info
+[0.700s] -- Detecting CXX compiler ABI info - done
+[0.710s] -- Detecting CXX compile features
+[0.710s] -- Detecting CXX compile features - done
+[0.712s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.733s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.733s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.800s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.842s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.848s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.918s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.946s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.007s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.053s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.055s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.070s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.071s] -- Looking for pthread.h
+[1.123s] -- Looking for pthread.h - found
+[1.123s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.178s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.178s] -- Looking for pthread_create in pthreads
+[1.219s] -- Looking for pthread_create in pthreads - not found
+[1.219s] -- Looking for pthread_create in pthread
+[1.269s] -- Looking for pthread_create in pthread - found
+[1.270s] -- Found Threads: TRUE  
+[1.406s] -- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[1.447s] -- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)
+[1.448s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.473s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[1.740s] -- Configuring done
+[1.753s] -- Generating done
+[1.754s] -- Build files have been written to: /home/dawn/final_ws/build/world_odom_broadcaster
+[1.766s] Invoked command in '/home/dawn/final_ws/build/world_odom_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake /home/dawn/final_ws/src/enpm809y_FinalFall2022/final/world_odom_broadcaster -DCMAKE_INSTALL_PREFIX=/home/dawn/final_ws/install/world_odom_broadcaster
+[1.769s] Invoking command in '/home/dawn/final_ws/build/world_odom_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/world_odom_broadcaster -- -j16 -l16
+[1.804s] [35m[1mScanning dependencies of target world_odom_broadcaster[0m
+[1.840s] [ 66%] [32mBuilding CXX object CMakeFiles/world_odom_broadcaster.dir/src/world_odom_broadcaster.cpp.o[0m
+[1.840s] [ 66%] [32mBuilding CXX object CMakeFiles/world_odom_broadcaster.dir/src/main.cpp.o[0m
+[5.217s] [100%] [32m[1mLinking CXX executable world_odom_broadcaster[0m
+[5.366s] [100%] Built target world_odom_broadcaster
+[5.374s] Invoked command in '/home/dawn/final_ws/build/world_odom_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/world_odom_broadcaster -- -j16 -l16
+[5.395s] Invoking command in '/home/dawn/final_ws/build/world_odom_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/world_odom_broadcaster
+[5.401s] -- Install configuration: ""
+[5.402s] -- Installing: /home/dawn/final_ws/install/world_odom_broadcaster/lib/world_odom_broadcaster/world_odom_broadcaster
+[5.402s] -- Set runtime path of "/home/dawn/final_ws/install/world_odom_broadcaster/lib/world_odom_broadcaster/world_odom_broadcaster" to ""
+[5.403s] -- Installing: /home/dawn/final_ws/install/world_odom_broadcaster/share/ament_index/resource_index/package_run_dependencies/world_odom_broadcaster
+[5.403s] -- Installing: /home/dawn/final_ws/install/world_odom_broadcaster/share/ament_index/resource_index/parent_prefix_path/world_odom_broadcaster
+[5.403s] -- Installing: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/environment/ament_prefix_path.sh
+[5.403s] -- Installing: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/environment/ament_prefix_path.dsv
+[5.403s] -- Installing: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/environment/path.sh
+[5.403s] -- Installing: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/environment/path.dsv
+[5.403s] -- Installing: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/local_setup.bash
+[5.403s] -- Installing: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/local_setup.sh
+[5.404s] -- Installing: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/local_setup.zsh
+[5.404s] -- Installing: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/local_setup.dsv
+[5.404s] -- Installing: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/package.dsv
+[5.404s] -- Installing: /home/dawn/final_ws/install/world_odom_broadcaster/share/ament_index/resource_index/packages/world_odom_broadcaster
+[5.404s] -- Installing: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/cmake/world_odom_broadcasterConfig.cmake
+[5.404s] -- Installing: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/cmake/world_odom_broadcasterConfig-version.cmake
+[5.404s] -- Installing: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/package.xml
+[5.408s] Invoked command in '/home/dawn/final_ws/build/world_odom_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/world_odom_broadcaster

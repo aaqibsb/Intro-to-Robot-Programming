@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+../../../../../build/tb3_gazebo_spawner/tb3_gazebo_spawner.egg-info/PKG-INFO
+../../../../../build/tb3_gazebo_spawner/tb3_gazebo_spawner.egg-info/SOURCES.txt
+../../../../../build/tb3_gazebo_spawner/tb3_gazebo_spawner.egg-info/dependency_links.txt
+../../../../../build/tb3_gazebo_spawner/tb3_gazebo_spawner.egg-info/entry_points.txt
+../../../../../build/tb3_gazebo_spawner/tb3_gazebo_spawner.egg-info/requires.txt
+../../../../../build/tb3_gazebo_spawner/tb3_gazebo_spawner.egg-info/top_level.txt
+../../../../../build/tb3_gazebo_spawner/tb3_gazebo_spawner.egg-info/zip-safe
+resource/tb3_gazebo_spawner
+tb3_gazebo_spawner/__init__.py
+tb3_gazebo_spawner/tb3_gazebo_spawner.py

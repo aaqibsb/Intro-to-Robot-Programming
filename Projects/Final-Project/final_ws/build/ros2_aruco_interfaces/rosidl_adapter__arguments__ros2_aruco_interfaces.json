@@ -1,0 +1,6 @@
+{
+  "package_name": "ros2_aruco_interfaces",
+  "non_idl_tuples": [
+    "/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco_interfaces:msg/ArucoMarkers.msg"
+  ]
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbot_controller.a  CMakeFiles/bot_controller.dir/src/bot_controller.cpp.o
+/usr/bin/ranlib libbot_controller.a

@@ -1,0 +1,269 @@
+[0.046s] Invoking command in '/home/dawn/final_ws/build/tb3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake /home/dawn/final_ws/src/enpm809y_FinalFall2022/final/tb3_gazebo -DCMAKE_INSTALL_PREFIX=/home/dawn/final_ws/install/tb3_gazebo
+[0.422s] -- The C compiler identification is GNU 9.4.0
+[0.423s] -- The CXX compiler identification is GNU 9.4.0
+[0.423s] -- Check for working C compiler: /usr/bin/cc
+[0.423s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.423s] -- Detecting C compiler ABI info
+[0.425s] -- Detecting C compiler ABI info - done
+[0.426s] -- Detecting C compile features
+[0.426s] -- Detecting C compile features - done
+[0.426s] -- Check for working CXX compiler: /usr/bin/c++
+[0.426s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.426s] -- Detecting CXX compiler ABI info
+[0.426s] -- Detecting CXX compiler ABI info - done
+[0.426s] -- Detecting CXX compile features
+[0.426s] -- Detecting CXX compile features - done
+[0.426s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.426s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.426s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.449s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.453s] -- Checking for module 'bullet>=2.82'
+[0.466s] --   Found bullet, version 2.88
+[0.555s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[0.595s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[0.639s] -- Found assimp: /usr/include (found version "5.0.0") 
+[0.658s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.894s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.925s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[0.930s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.936s] -- Searching for dependencies of ignition-math6
+[0.938s] -- Looking for OGRE...
+[0.939s] -- OGRE_PREFIX_WATCH changed.
+[0.943s] -- Checking for module 'OGRE'
+[0.956s] --   Found OGRE, version 1.9.0
+[0.990s] -- Found Ogre Ghadamon (1.9.0)
+[1.006s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.017s] -- Looking for OGRE_Paging...
+[1.027s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.027s] -- Looking for OGRE_Terrain...
+[1.036s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.036s] -- Looking for OGRE_Property...
+[1.046s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.046s] -- Looking for OGRE_RTShaderSystem...
+[1.054s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.054s] -- Looking for OGRE_Volume...
+[1.062s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.062s] -- Looking for OGRE_Overlay...
+[1.070s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.185s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.186s] -- Looking for ignition-transport8 -- found version 8.3.0
+[1.187s] -- Searching for dependencies of ignition-transport8
+[1.201s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.209s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.213s] -- Checking for module 'libzmq >= 4'
+[1.224s] --   Found libzmq , version 4.3.2
+[1.252s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.256s] -- Checking for module 'uuid'
+[1.268s] --   Found uuid, version 2.34.0
+[1.297s] -- Found UUID: TRUE  
+[1.299s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.299s] -- Searching for dependencies of ignition-msgs5
+[1.316s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.320s] -- Checking for module 'tinyxml2'
+[1.332s] --   Found tinyxml2, version 6.2.0
+[1.360s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.362s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.363s] -- Searching for dependencies of ignition-common3
+[1.363s] -- Looking for dlfcn.h - found
+[1.365s] -- Looking for libdl - found
+[1.366s] -- Found DL: TRUE  
+[1.374s] -- Searching for <ignition-common3> component [graphics]
+[1.375s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[1.376s] -- Searching for dependencies of ignition-common3-graphics
+[1.376s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.379s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[1.379s] -- Searching for dependencies of ignition-fuel_tools4
+[1.445s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[1.453s] -- Checking for module 'jsoncpp'
+[1.466s] --   Found jsoncpp, version 1.7.4
+[1.497s] -- Found JSONCPP: TRUE  
+[1.503s] -- Checking for module 'libzip'
+[1.517s] --   Found libzip, version 1.5.1
+[1.548s] -- Found ZIP: TRUE  
+[1.548s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.549s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.549s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.553s] -- Found gazebo_ros_pkgs: 3.5.2 (/opt/ros/galactic/share/gazebo_ros_pkgs/cmake)
+[1.554s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.587s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.589s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.659s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.683s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.747s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.816s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[1.887s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.936s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.939s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.957s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.958s] -- Found Threads: TRUE  
+[2.095s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[2.161s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[2.233s] -- Configuring done
+[2.244s] -- Generating done
+[2.246s] -- Build files have been written to: /home/dawn/final_ws/build/tb3_gazebo
+[2.260s] Invoked command in '/home/dawn/final_ws/build/tb3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake /home/dawn/final_ws/src/enpm809y_FinalFall2022/final/tb3_gazebo -DCMAKE_INSTALL_PREFIX=/home/dawn/final_ws/install/tb3_gazebo
+[2.263s] Invoking command in '/home/dawn/final_ws/build/tb3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/tb3_gazebo -- -j16 -l16
+[2.299s] [35m[1mScanning dependencies of target turtlebot3_drive[0m
+[2.334s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[9.855s] [100%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[10.123s] [100%] Built target turtlebot3_drive
+[10.131s] Invoked command in '/home/dawn/final_ws/build/tb3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/tb3_gazebo -- -j16 -l16
+[10.150s] Invoking command in '/home/dawn/final_ws/build/tb3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/tb3_gazebo
+[10.156s] -- Install configuration: ""
+[10.156s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/lib/tb3_gazebo/turtlebot3_drive
+[10.159s] -- Set runtime path of "/home/dawn/final_ws/install/tb3_gazebo/lib/tb3_gazebo/turtlebot3_drive" to ""
+[10.159s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//launch
+[10.159s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//launch/robot_state_publisher.launch.py
+[10.159s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//launch/turtlebot3_house.launch.py
+[10.160s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//launch/spawn_turtlebot3.launch.py
+[10.160s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[10.160s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//launch/turtlebot3_world.launch.py
+[10.160s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[10.160s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[10.160s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//launch/empty_world.launch.py
+[10.160s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[10.160s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models
+[10.160s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/four
+[10.160s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/four/model.config
+[10.160s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/four/materials
+[10.160s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/four/materials/textures
+[10.160s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/four/materials/textures/4.png
+[10.160s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/four/materials/scripts
+[10.160s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/four/materials/scripts/marker.material
+[10.160s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/four/model.sdf
+[10.161s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/three
+[10.161s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/three/model.config
+[10.161s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/three/materials
+[10.161s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/three/materials/textures
+[10.161s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/three/materials/textures/3.png
+[10.161s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/three/materials/scripts
+[10.161s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/three/materials/scripts/marker.material
+[10.161s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/three/model.sdf
+[10.161s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_2
+[10.161s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_2/model.config
+[10.161s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_2/materials
+[10.161s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_2/materials/textures
+[10.161s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_2/materials/textures/marker_2.png
+[10.161s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_2/materials/scripts
+[10.161s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_2/materials/scripts/marker.material
+[10.161s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_2/model.sdf
+[10.161s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_common
+[10.161s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_common/meshes
+[10.161s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_common/meshes/marker_3
+[10.162s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_common/meshes/marker_3/marker_3.dae
+[10.162s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_common/meshes/r200.dae
+[10.162s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_common/meshes/marker_0
+[10.162s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_common/meshes/marker_0/marker_0.png
+[10.162s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_common/meshes/marker_0/marker_0.dae
+[10.162s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_common/meshes/marker_1
+[10.162s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_common/meshes/marker_1/FabConvert.com_marker_1.dae
+[10.162s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[10.162s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_common/meshes/tire.dae
+[10.162s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_common/meshes/lds.dae
+[10.162s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+[10.163s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_common/meshes/marker_2
+[10.163s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_common/meshes/marker_2/marker_2.dae
+[10.163s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+[10.163s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_common/model.config
+[10.163s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/one
+[10.163s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/one/model.config
+[10.163s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/one/materials
+[10.163s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/one/materials/textures
+[10.163s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/one/materials/textures/1.png
+[10.163s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/one/materials/textures/1.jpeg
+[10.163s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/one/materials/scripts
+[10.163s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/one/materials/scripts/marker.material
+[10.164s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/one/model.sdf
+[10.164s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/two
+[10.164s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/two/model.config
+[10.164s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/two/materials
+[10.164s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/two/materials/textures
+[10.164s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/two/materials/textures/2.png
+[10.164s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/two/materials/scripts
+[10.164s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/two/materials/scripts/marker.material
+[10.164s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/two/model.sdf
+[10.164s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_world
+[10.164s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_world/meshes
+[10.164s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[10.164s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[10.164s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_world/model.config
+[10.164s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[10.164s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_world/model.sdf
+[10.164s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/final_project_world
+[10.164s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/final_project_world/model.config
+[10.164s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/final_project_world/model.sdf
+[10.165s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_1
+[10.165s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_1/model.config
+[10.165s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_1/materials
+[10.165s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_1/materials/textures
+[10.165s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_1/materials/textures/marker_1.png
+[10.165s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_1/materials/scripts
+[10.165s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_1/materials/scripts/marker.material
+[10.165s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_1/model.sdf
+[10.165s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_0
+[10.165s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_0/model.config
+[10.165s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_0/materials
+[10.165s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_0/materials/textures
+[10.165s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_0/materials/textures/marker_0.png
+[10.165s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_0/materials/scripts
+[10.165s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_0/materials/scripts/marker.material
+[10.165s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_0/model.sdf
+[10.165s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_waffle
+[10.165s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_waffle/model.config
+[10.166s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_waffle/model_robot1.sdf
+[10.166s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_waffle/model_robot2_aruco1.sdf
+[10.166s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_waffle/model_robot2_aruco2.sdf
+[10.166s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_waffle/model_robot2_aruco0.sdf
+[10.166s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[10.166s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_waffle/model_robot3.sdf
+[10.166s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/turtlebot3_waffle/model_robot2_aruco3.sdf
+[10.166s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_3
+[10.166s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_3/model.config
+[10.166s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_3/materials
+[10.166s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_3/materials/textures
+[10.166s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_3/materials/textures/marker_3.png
+[10.166s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_3/materials/scripts
+[10.166s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_3/materials/scripts/marker.material
+[10.166s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/aruco_marker_3/model.sdf
+[10.166s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/ground_plane
+[10.166s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/ground_plane/model-1_3.sdf
+[10.166s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/ground_plane/model.config
+[10.166s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/ground_plane/model-1_4.sdf
+[10.167s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/ground_plane/model.sdf
+[10.167s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//models/ground_plane/model-1_2.sdf
+[10.167s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//rviz
+[10.167s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//rviz/tb3_gazebo.rviz
+[10.167s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//urdf
+[10.167s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+[10.167s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//urdf/turtlebot3_burger.urdf
+[10.167s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//urdf/common_properties.urdf
+[10.167s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//urdf/turtlebot3_waffle.urdf
+[10.167s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//worlds
+[10.167s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//worlds/turtlebot3_dqn_stage3.world
+[10.167s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//worlds/turtlebot3_house.world
+[10.167s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//worlds/turtlebot3_world.world
+[10.167s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//worlds/turtlebot3_dqn_stage2.world
+[10.167s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//worlds/turtlebot3_dqn_stage4.world
+[10.167s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//worlds/turtlebot3_dqn_stage1.world
+[10.167s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo//worlds/empty_world.world
+[10.167s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/include/
+[10.167s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/include//turtlebot3_gazebo
+[10.168s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[10.168s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/ament_index/resource_index/package_run_dependencies/tb3_gazebo
+[10.168s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/ament_index/resource_index/parent_prefix_path/tb3_gazebo
+[10.168s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/environment/ament_prefix_path.sh
+[10.168s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/environment/ament_prefix_path.dsv
+[10.168s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/environment/path.sh
+[10.168s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/environment/path.dsv
+[10.168s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/local_setup.bash
+[10.168s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/local_setup.sh
+[10.168s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/local_setup.zsh
+[10.168s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/local_setup.dsv
+[10.168s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/package.dsv
+[10.168s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/ament_index/resource_index/packages/tb3_gazebo
+[10.168s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.168s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.168s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/cmake/tb3_gazeboConfig.cmake
+[10.168s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/cmake/tb3_gazeboConfig-version.cmake
+[10.168s] -- Installing: /home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/package.xml
+[10.171s] Invoked command in '/home/dawn/final_ws/build/tb3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/tb3_gazebo

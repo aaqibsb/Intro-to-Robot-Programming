@@ -1,0 +1,22 @@
+[0.509s] Invoking command in '/home/dawn/final_ws/build/world_odom_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/world_odom_broadcaster -- -j16 -l16
+[0.597s] [100%] Built target world_odom_broadcaster
+[0.697s] Invoked command in '/home/dawn/final_ws/build/world_odom_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/world_odom_broadcaster -- -j16 -l16
+[0.806s] Invoking command in '/home/dawn/final_ws/build/world_odom_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/world_odom_broadcaster
+[0.821s] -- Install configuration: ""
+[0.821s] -- Up-to-date: /home/dawn/final_ws/install/world_odom_broadcaster/lib/world_odom_broadcaster/world_odom_broadcaster
+[0.821s] -- Up-to-date: /home/dawn/final_ws/install/world_odom_broadcaster/share/ament_index/resource_index/package_run_dependencies/world_odom_broadcaster
+[0.821s] -- Up-to-date: /home/dawn/final_ws/install/world_odom_broadcaster/share/ament_index/resource_index/parent_prefix_path/world_odom_broadcaster
+[0.821s] -- Up-to-date: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/environment/ament_prefix_path.sh
+[0.822s] -- Up-to-date: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/environment/ament_prefix_path.dsv
+[0.822s] -- Up-to-date: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/environment/path.sh
+[0.822s] -- Up-to-date: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/environment/path.dsv
+[0.822s] -- Up-to-date: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/local_setup.bash
+[0.822s] -- Up-to-date: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/local_setup.sh
+[0.822s] -- Up-to-date: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/local_setup.zsh
+[0.822s] -- Up-to-date: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/local_setup.dsv
+[0.822s] -- Installing: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/package.dsv
+[0.822s] -- Up-to-date: /home/dawn/final_ws/install/world_odom_broadcaster/share/ament_index/resource_index/packages/world_odom_broadcaster
+[0.822s] -- Up-to-date: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/cmake/world_odom_broadcasterConfig.cmake
+[0.823s] -- Up-to-date: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/cmake/world_odom_broadcasterConfig-version.cmake
+[0.823s] -- Up-to-date: /home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/package.xml
+[0.847s] Invoked command in '/home/dawn/final_ws/build/world_odom_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/world_odom_broadcaster

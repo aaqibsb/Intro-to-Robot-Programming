@@ -1,0 +1,79 @@
+[0.009s] Invoking command in '/home/dawn/final_ws/build/tb3_bringup': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/final_ws/install/bot_controller:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake /home/dawn/final_ws/src/enpm809y_FinalFall2022/final/tb3_bringup/bringup -DCMAKE_INSTALL_PREFIX=/home/dawn/final_ws/install/tb3_bringup
+[0.047s] -- The C compiler identification is GNU 9.4.0
+[0.084s] -- The CXX compiler identification is GNU 9.4.0
+[0.088s] -- Check for working C compiler: /usr/bin/cc
+[0.139s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.139s] -- Detecting C compiler ABI info
+[0.188s] -- Detecting C compiler ABI info - done
+[0.196s] -- Detecting C compile features
+[0.197s] -- Detecting C compile features - done
+[0.198s] -- Check for working CXX compiler: /usr/bin/c++
+[0.255s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.256s] -- Detecting CXX compiler ABI info
+[0.317s] -- Detecting CXX compiler ABI info - done
+[0.326s] -- Detecting CXX compile features
+[0.326s] -- Detecting CXX compile features - done
+[0.328s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.348s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.348s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.409s] -- Found nav2_common: 1.0.12 (/opt/ros/galactic/share/nav2_common/cmake)
+[0.410s] -- Found navigation2: 1.0.12 (/opt/ros/galactic/share/navigation2/cmake)
+[0.410s] -- Setting build type to Release as none was specified.
+[0.411s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.484s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.486s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.486s] -- Added test 'lint_cmake' to check CMake code style
+[0.487s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.488s] -- Added test 'xmllint' to check XML markup files
+[0.489s] -- Configuring done
+[0.490s] -- Generating done
+[0.491s] -- Build files have been written to: /home/dawn/final_ws/build/tb3_bringup
+[0.494s] Invoked command in '/home/dawn/final_ws/build/tb3_bringup' returned '0': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/final_ws/install/bot_controller:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake /home/dawn/final_ws/src/enpm809y_FinalFall2022/final/tb3_bringup/bringup -DCMAKE_INSTALL_PREFIX=/home/dawn/final_ws/install/tb3_bringup
+[0.494s] Invoking command in '/home/dawn/final_ws/build/tb3_bringup': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/final_ws/install/bot_controller:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/tb3_bringup -- -j16 -l16
+[0.522s] Invoked command in '/home/dawn/final_ws/build/tb3_bringup' returned '0': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/final_ws/install/bot_controller:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/tb3_bringup -- -j16 -l16
+[0.540s] Invoking command in '/home/dawn/final_ws/build/tb3_bringup': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/final_ws/install/bot_controller:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/tb3_bringup
+[0.546s] -- Install configuration: "Release"
+[0.546s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/launch
+[0.546s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/launch/final.launch.py
+[0.546s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/launch/navigation_launch.py
+[0.546s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/launch/rviz_launch.py
+[0.546s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/launch/spawn_tb3_launch.py
+[0.546s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/launch/bringup_launch.py
+[0.546s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/launch/slam_launch.py
+[0.546s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/launch/tb3_simulation_launch.py
+[0.546s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/launch/localization_launch.py
+[0.546s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/maps
+[0.546s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/maps/turtlebot3_world.yaml
+[0.547s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/maps/turtlebot3_world.pgm
+[0.547s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/rviz
+[0.547s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/rviz/nav2_default_view.rviz
+[0.547s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/rviz/robot1.rviz
+[0.547s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/rviz/nav2_namespaced_view.rviz
+[0.547s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/rviz/robots.rviz
+[0.547s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/worlds
+[0.547s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/worlds/world_only.model
+[0.547s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/worlds/waffle.model
+[0.547s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/worlds/empty_world.world
+[0.547s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/params
+[0.547s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/params/nav2_multirobot_params_1.yaml
+[0.547s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/params/nav2_params.yaml
+[0.547s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/params/nav2_multirobot_params_2.yaml
+[0.547s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/params/nav2_multirobot_params_3yaml
+[0.548s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/urdf
+[0.548s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/urdf/turtlebot3_waffle.urdf
+[0.548s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/ament_index/resource_index/package_run_dependencies/tb3_bringup
+[0.548s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/ament_index/resource_index/parent_prefix_path/tb3_bringup
+[0.548s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/environment/ament_prefix_path.sh
+[0.549s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/environment/ament_prefix_path.dsv
+[0.549s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/environment/path.sh
+[0.549s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/environment/path.dsv
+[0.549s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/local_setup.bash
+[0.549s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/local_setup.sh
+[0.549s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/local_setup.zsh
+[0.549s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/local_setup.dsv
+[0.549s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/package.dsv
+[0.549s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/ament_index/resource_index/packages/tb3_bringup
+[0.549s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/cmake/tb3_bringupConfig.cmake
+[0.549s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/cmake/tb3_bringupConfig-version.cmake
+[0.549s] -- Installing: /home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/package.xml
+[0.552s] Invoked command in '/home/dawn/final_ws/build/tb3_bringup' returned '0': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/final_ws/install/bot_controller:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/tb3_bringup

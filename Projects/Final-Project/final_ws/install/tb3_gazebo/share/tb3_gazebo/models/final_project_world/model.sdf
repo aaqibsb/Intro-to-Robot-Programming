@@ -1,0 +1,34 @@
+<sdf version='1.5'>
+    <!-- Draw Circle -->
+    <model name='ros_symbol'>
+      <static>1</static>
+      <link name='symbol'>
+        <visual name='aruco'>
+          <pose>5 5 0.25 0 0 0</pose>
+          <geometry>
+            <mesh>
+              <uri>model://aruco_marker_0</uri>
+              <scale>0.001 0.001 0.001</scale>
+            </mesh>
+          </geometry>
+        </visual>
+
+        <visual name='two_three'>
+          <pose>2 2 0.25 0 0 0</pose>
+          <geometry>
+            <cylinder>
+              <radius>0.15</radius>
+              <length>0.01</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/White</name>
+            </script>
+          </material>
+        </visual>
+
+    </link>
+  </model>
+</sdf>

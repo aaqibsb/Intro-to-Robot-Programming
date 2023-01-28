@@ -1,0 +1,768 @@
+[0.231s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.231s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fda0199b880>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fda0199b880>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fda0199bdf0>)
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.268s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.269s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dawn/final_ws'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022) by extension 'ros'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022) by extensions ['cmake', 'python']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022) by extension 'cmake'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022) by extension 'python'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022) by extensions ['python_setup_py']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022) by extension 'python_setup_py'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final) by extension 'ros'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final) by extensions ['cmake', 'python']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final) by extension 'cmake'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final) by extension 'python'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final) by extensions ['python_setup_py']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final) by extension 'python_setup_py'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/bot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/bot_controller) by extension 'ignore'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/bot_controller) by extension 'ignore_ament_install'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/bot_controller) by extensions ['colcon_pkg']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/bot_controller) by extension 'colcon_pkg'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/bot_controller) by extensions ['colcon_meta']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/bot_controller) by extension 'colcon_meta'
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/bot_controller) by extensions ['ros']
+[0.283s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/bot_controller) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/enpm809y_FinalFall2022/final/bot_controller' with type 'ros.ament_cmake' and name 'bot_controller'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/final_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/final_plugins) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/final_plugins) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/final_plugins) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/final_plugins) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/final_plugins) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/final_plugins) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/final_plugins) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/final_plugins) by extension 'ros'
+[0.298s] DEBUG:colcon.colcon_core.package_identification:Package 'src/enpm809y_FinalFall2022/final/final_plugins' with type 'ros.ament_cmake' and name 'final_plugins'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/odom_updater) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/odom_updater) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/odom_updater) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/odom_updater) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/odom_updater) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/odom_updater) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/odom_updater) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/odom_updater) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/odom_updater) by extension 'ros'
+[0.299s] DEBUG:colcon.colcon_core.package_identification:Package 'src/enpm809y_FinalFall2022/final/odom_updater' with type 'ros.ament_cmake' and name 'odom_updater'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco) by extension 'ros'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco) by extensions ['cmake', 'python']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco) by extension 'cmake'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco) by extension 'python'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco) by extensions ['python_setup_py']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco) by extension 'python_setup_py'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco) by extension 'ros'
+[0.301s] DEBUG:colcon.colcon_core.package_identification:Package 'src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco' with type 'ros.ament_python' and name 'ros2_aruco'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco_interfaces) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco_interfaces) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco_interfaces) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco_interfaces) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco_interfaces) by extension 'ros'
+[0.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco_interfaces' with type 'ros.ament_cmake' and name 'ros2_aruco_interfaces'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/target_reacher) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/target_reacher) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/target_reacher) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/target_reacher) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/target_reacher) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/target_reacher) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/target_reacher) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/target_reacher) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/target_reacher) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/enpm809y_FinalFall2022/final/target_reacher' with type 'ros.ament_cmake' and name 'target_reacher'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup) by extension 'python'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup) by extensions ['python_setup_py']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup) by extension 'python_setup_py'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup/bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup/bringup) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup/bringup) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup/bringup) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup/bringup) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup/bringup) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup/bringup) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup/bringup) by extensions ['ros']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup/bringup) by extension 'ros'
+[0.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/enpm809y_FinalFall2022/final/tb3_bringup/bringup' with type 'ros.ament_cmake' and name 'tb3_bringup'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup/tb3_gazebo_spawner) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup/tb3_gazebo_spawner) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup/tb3_gazebo_spawner) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup/tb3_gazebo_spawner) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup/tb3_gazebo_spawner) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup/tb3_gazebo_spawner) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup/tb3_gazebo_spawner) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup/tb3_gazebo_spawner) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_bringup/tb3_gazebo_spawner) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/enpm809y_FinalFall2022/final/tb3_bringup/tb3_gazebo_spawner' with type 'ros.ament_python' and name 'tb3_gazebo_spawner'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_gazebo) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_gazebo) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_gazebo) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_gazebo) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_gazebo) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_gazebo) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_gazebo) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/tb3_gazebo) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/enpm809y_FinalFall2022/final/tb3_gazebo' with type 'ros.ament_cmake' and name 'tb3_gazebo'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/world_odom_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/world_odom_broadcaster) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/world_odom_broadcaster) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/world_odom_broadcaster) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/world_odom_broadcaster) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/world_odom_broadcaster) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/world_odom_broadcaster) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/world_odom_broadcaster) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/enpm809y_FinalFall2022/final/world_odom_broadcaster) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/enpm809y_FinalFall2022/final/world_odom_broadcaster' with type 'ros.ament_cmake' and name 'world_odom_broadcaster'
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.338s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/dawn/final_ws/install
+[0.339s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/dawn/ros2_ws/install
+[0.340s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 330 installed packages in /opt/ros/galactic
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'cmake_target' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.432s] DEBUG:colcon.colcon_core.verb:Building package 'bot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dawn/final_ws/build/bot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dawn/final_ws/install/bot_controller', 'merge_install': False, 'path': '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/bot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'final_plugins' build argument 'cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'final_plugins' build argument 'cmake_target' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'final_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'final_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'final_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'final_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'final_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'final_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'final_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.433s] DEBUG:colcon.colcon_core.verb:Building package 'final_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dawn/final_ws/build/final_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dawn/final_ws/install/final_plugins', 'merge_install': False, 'path': '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/final_plugins', 'symlink_install': False, 'test_result_base': None}
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'odom_updater' build argument 'cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'odom_updater' build argument 'cmake_target' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'odom_updater' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'odom_updater' build argument 'cmake_clean_cache' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'odom_updater' build argument 'cmake_clean_first' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'odom_updater' build argument 'cmake_force_configure' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'odom_updater' build argument 'ament_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'odom_updater' build argument 'catkin_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'odom_updater' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.434s] DEBUG:colcon.colcon_core.verb:Building package 'odom_updater' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dawn/final_ws/build/odom_updater', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dawn/final_ws/install/odom_updater', 'merge_install': False, 'path': '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/odom_updater', 'symlink_install': False, 'test_result_base': None}
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_aruco' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dawn/final_ws/build/ros2_aruco', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dawn/final_ws/install/ros2_aruco', 'merge_install': False, 'path': '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco', 'symlink_install': False, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'ros2_aruco_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_aruco_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dawn/final_ws/build/ros2_aruco_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dawn/final_ws/install/ros2_aruco_interfaces', 'merge_install': False, 'path': '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dawn/final_ws/build/tb3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dawn/final_ws/install/tb3_gazebo', 'merge_install': False, 'path': '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/tb3_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo_spawner' build argument 'cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo_spawner' build argument 'cmake_target' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo_spawner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo_spawner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo_spawner' build argument 'cmake_clean_first' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo_spawner' build argument 'cmake_force_configure' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo_spawner' build argument 'ament_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo_spawner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'tb3_gazebo_spawner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.438s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_gazebo_spawner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dawn/final_ws/build/tb3_gazebo_spawner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dawn/final_ws/install/tb3_gazebo_spawner', 'merge_install': False, 'path': '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/tb3_bringup/tb3_gazebo_spawner', 'symlink_install': False, 'test_result_base': None}
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'world_odom_broadcaster' build argument 'cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'world_odom_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'world_odom_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'world_odom_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'world_odom_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'world_odom_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'world_odom_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'world_odom_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'world_odom_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.439s] DEBUG:colcon.colcon_core.verb:Building package 'world_odom_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dawn/final_ws/build/world_odom_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dawn/final_ws/install/world_odom_broadcaster', 'merge_install': False, 'path': '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/world_odom_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'target_reacher' build argument 'cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'target_reacher' build argument 'cmake_target' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'target_reacher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'target_reacher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'target_reacher' build argument 'cmake_clean_first' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'target_reacher' build argument 'cmake_force_configure' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'target_reacher' build argument 'ament_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'target_reacher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'target_reacher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.440s] DEBUG:colcon.colcon_core.verb:Building package 'target_reacher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dawn/final_ws/build/target_reacher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dawn/final_ws/install/target_reacher', 'merge_install': False, 'path': '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/target_reacher', 'symlink_install': False, 'test_result_base': None}
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'tb3_bringup' build argument 'cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'tb3_bringup' build argument 'cmake_target' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'tb3_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'tb3_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'tb3_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'tb3_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'tb3_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'tb3_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'tb3_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.441s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dawn/final_ws/build/tb3_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dawn/final_ws/install/tb3_bringup', 'merge_install': False, 'path': '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/tb3_bringup/bringup', 'symlink_install': False, 'test_result_base': None}
+[0.441s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.445s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.445s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/bot_controller' with build type 'ament_cmake'
+[0.445s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/bot_controller'
+[0.452s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.452s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.459s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco_interfaces' with build type 'ament_cmake'
+[0.459s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco_interfaces'
+[0.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.467s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/tb3_gazebo' with build type 'ament_cmake'
+[0.467s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/tb3_gazebo'
+[0.468s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.474s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/final_plugins' with build type 'ament_cmake'
+[0.475s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/final_plugins'
+[0.476s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.476s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.484s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/odom_updater' with build type 'ament_cmake'
+[0.484s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/odom_updater'
+[0.485s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.485s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.491s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco' with build type 'ament_python'
+[0.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'ament_prefix_path')
+[0.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.ps1'
+[0.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.dsv'
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/ros2_aruco/share/ros2_aruco/hook/ament_prefix_path.sh'
+[0.496s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.496s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.502s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/tb3_bringup/tb3_gazebo_spawner' with build type 'ament_python'
+[0.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_gazebo_spawner', 'ament_prefix_path')
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/tb3_gazebo_spawner/share/tb3_gazebo_spawner/hook/ament_prefix_path.ps1'
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/tb3_gazebo_spawner/share/tb3_gazebo_spawner/hook/ament_prefix_path.dsv'
+[0.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/tb3_gazebo_spawner/share/tb3_gazebo_spawner/hook/ament_prefix_path.sh'
+[0.506s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.506s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.514s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/world_odom_broadcaster' with build type 'ament_cmake'
+[0.514s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/world_odom_broadcaster'
+[0.515s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.515s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dawn/final_ws/build/bot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/bot_controller -- -j16 -l16
+[0.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dawn/final_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/ros2_aruco_interfaces -- -j16 -l16
+[0.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dawn/final_ws/build/tb3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/tb3_gazebo -- -j16 -l16
+[0.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dawn/final_ws/build/final_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/final_plugins -- -j16 -l16
+[0.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dawn/final_ws/build/odom_updater': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/odom_updater -- -j16 -l16
+[0.784s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco'
+[0.786s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.786s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.009s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/tb3_bringup/tb3_gazebo_spawner'
+[1.011s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.011s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dawn/final_ws/build/world_odom_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/world_odom_broadcaster -- -j16 -l16
+[1.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dawn/final_ws/build/bot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/bot_controller -- -j16 -l16
+[1.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dawn/final_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/ros2_aruco_interfaces -- -j16 -l16
+[1.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dawn/final_ws/build/tb3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/tb3_gazebo -- -j16 -l16
+[1.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dawn/final_ws/build/final_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/final_plugins -- -j16 -l16
+[1.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dawn/final_ws/build/odom_updater' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/odom_updater -- -j16 -l16
+[1.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dawn/final_ws/build/bot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/bot_controller
+[1.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dawn/final_ws/build/tb3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/tb3_gazebo
+[1.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dawn/final_ws/build/odom_updater': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/odom_updater
+[1.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dawn/final_ws/build/final_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/final_plugins
+[1.103s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_controller)
+[1.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dawn/final_ws/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/ros2_aruco_interfaces
+[1.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dawn/final_ws/build/bot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/bot_controller
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/bot_controller' for CMake module files
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/bot_controller' for CMake config files
+[1.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_controller', 'cmake_prefix_path')
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/bot_controller/share/bot_controller/hook/cmake_prefix_path.ps1'
+[1.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/bot_controller/share/bot_controller/hook/cmake_prefix_path.dsv'
+[1.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/bot_controller/share/bot_controller/hook/cmake_prefix_path.sh'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/bot_controller/lib'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/bot_controller/bin'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/bot_controller/lib/pkgconfig/bot_controller.pc'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/bot_controller/lib/python3.8/site-packages'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/bot_controller/bin'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/bot_controller/share/bot_controller/package.ps1'
+[1.139s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dawn/final_ws/install/bot_controller/share/bot_controller/package.dsv'
+[1.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/bot_controller/share/bot_controller/package.sh'
+[1.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/bot_controller/share/bot_controller/package.bash'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/bot_controller/share/bot_controller/package.zsh'
+[1.144s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dawn/final_ws/install/bot_controller/share/colcon-core/packages/bot_controller)
+[1.147s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odom_updater)
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/odom_updater' for CMake module files
+[1.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dawn/final_ws/build/odom_updater' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/odom_updater
+[1.152s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/odom_updater' for CMake config files
+[1.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_updater', 'cmake_prefix_path')
+[1.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/odom_updater/share/odom_updater/hook/cmake_prefix_path.ps1'
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/odom_updater/share/odom_updater/hook/cmake_prefix_path.dsv'
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/odom_updater/share/odom_updater/hook/cmake_prefix_path.sh'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/odom_updater/lib'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/odom_updater/bin'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/odom_updater/lib/pkgconfig/odom_updater.pc'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/odom_updater/lib/python3.8/site-packages'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/odom_updater/bin'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/odom_updater/share/odom_updater/package.ps1'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dawn/final_ws/install/odom_updater/share/odom_updater/package.dsv'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/odom_updater/share/odom_updater/package.sh'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/odom_updater/share/odom_updater/package.bash'
+[1.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/odom_updater/share/odom_updater/package.zsh'
+[1.167s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dawn/final_ws/install/odom_updater/share/colcon-core/packages/odom_updater)
+[1.172s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(final_plugins)
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/final_plugins' for CMake module files
+[1.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dawn/final_ws/build/final_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/final_plugins
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/final_plugins' for CMake config files
+[1.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('final_plugins', 'cmake_prefix_path')
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/final_plugins/share/final_plugins/hook/cmake_prefix_path.ps1'
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/final_plugins/share/final_plugins/hook/cmake_prefix_path.dsv'
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/final_plugins/share/final_plugins/hook/cmake_prefix_path.sh'
+[1.181s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/final_plugins/lib'
+[1.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('final_plugins', 'ld_library_path_lib')
+[1.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/final_plugins/share/final_plugins/hook/ld_library_path_lib.ps1'
+[1.184s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/final_plugins/share/final_plugins/hook/ld_library_path_lib.dsv'
+[1.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/final_plugins/share/final_plugins/hook/ld_library_path_lib.sh'
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/final_plugins/bin'
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/final_plugins/lib/pkgconfig/final_plugins.pc'
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/final_plugins/lib/python3.8/site-packages'
+[1.186s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/final_plugins/bin'
+[1.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/final_plugins/share/final_plugins/package.ps1'
+[1.189s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dawn/final_ws/install/final_plugins/share/final_plugins/package.dsv'
+[1.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/final_plugins/share/final_plugins/package.sh'
+[1.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/final_plugins/share/final_plugins/package.bash'
+[1.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/final_plugins/share/final_plugins/package.zsh'
+[1.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dawn/final_ws/install/final_plugins/share/colcon-core/packages/final_plugins)
+[1.194s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_gazebo)
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo' for CMake module files
+[1.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dawn/final_ws/build/tb3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/tb3_gazebo
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo' for CMake config files
+[1.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_gazebo', 'cmake_prefix_path')
+[1.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/hook/cmake_prefix_path.ps1'
+[1.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/hook/cmake_prefix_path.dsv'
+[1.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/hook/cmake_prefix_path.sh'
+[1.204s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo/lib'
+[1.204s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo/bin'
+[1.204s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo/lib/pkgconfig/tb3_gazebo.pc'
+[1.204s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo/lib/python3.8/site-packages'
+[1.204s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo/bin'
+[1.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/package.ps1'
+[1.207s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/package.dsv'
+[1.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/package.sh'
+[1.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/package.bash'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/package.zsh'
+[1.209s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dawn/final_ws/install/tb3_gazebo/share/colcon-core/packages/tb3_gazebo)
+[1.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dawn/final_ws/build/world_odom_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/world_odom_broadcaster -- -j16 -l16
+[1.217s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco_interfaces)
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco_interfaces' for CMake module files
+[1.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dawn/final_ws/build/ros2_aruco_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/ros2_aruco_interfaces
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco_interfaces' for CMake config files
+[1.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'cmake_prefix_path')
+[1.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.ps1'
+[1.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.dsv'
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.sh'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco_interfaces/lib'
+[1.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'ld_library_path_lib')
+[1.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.ps1'
+[1.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.dsv'
+[1.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.sh'
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco_interfaces/bin'
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco_interfaces/lib/pkgconfig/ros2_aruco_interfaces.pc'
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages'
+[1.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'pythonpath')
+[1.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/pythonpath.ps1'
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/pythonpath.dsv'
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/pythonpath.sh'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco_interfaces/bin'
+[1.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.ps1'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv'
+[1.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.sh'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.bash'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.zsh'
+[1.241s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dawn/final_ws/install/ros2_aruco_interfaces/share/colcon-core/packages/ros2_aruco_interfaces)
+[1.247s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_controller)
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/bot_controller' for CMake module files
+[1.252s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/bot_controller' for CMake config files
+[1.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_controller', 'cmake_prefix_path')
+[1.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/bot_controller/share/bot_controller/hook/cmake_prefix_path.ps1'
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/bot_controller/share/bot_controller/hook/cmake_prefix_path.dsv'
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/bot_controller/share/bot_controller/hook/cmake_prefix_path.sh'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/bot_controller/lib'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/bot_controller/bin'
+[1.256s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/bot_controller/lib/pkgconfig/bot_controller.pc'
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/bot_controller/lib/python3.8/site-packages'
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/bot_controller/bin'
+[1.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/bot_controller/share/bot_controller/package.ps1'
+[1.260s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dawn/final_ws/install/bot_controller/share/bot_controller/package.dsv'
+[1.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/bot_controller/share/bot_controller/package.sh'
+[1.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/bot_controller/share/bot_controller/package.bash'
+[1.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/bot_controller/share/bot_controller/package.zsh'
+[1.262s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dawn/final_ws/install/bot_controller/share/colcon-core/packages/bot_controller)
+[1.266s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odom_updater)
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/odom_updater' for CMake module files
+[1.270s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/odom_updater' for CMake config files
+[1.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('odom_updater', 'cmake_prefix_path')
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/odom_updater/share/odom_updater/hook/cmake_prefix_path.ps1'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/odom_updater/share/odom_updater/hook/cmake_prefix_path.dsv'
+[1.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/odom_updater/share/odom_updater/hook/cmake_prefix_path.sh'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/odom_updater/lib'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/odom_updater/bin'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/odom_updater/lib/pkgconfig/odom_updater.pc'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/odom_updater/lib/python3.8/site-packages'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/odom_updater/bin'
+[1.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/odom_updater/share/odom_updater/package.ps1'
+[1.278s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dawn/final_ws/install/odom_updater/share/odom_updater/package.dsv'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/odom_updater/share/odom_updater/package.sh'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/odom_updater/share/odom_updater/package.bash'
+[1.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/odom_updater/share/odom_updater/package.zsh'
+[1.281s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dawn/final_ws/install/odom_updater/share/colcon-core/packages/odom_updater)
+[1.284s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(final_plugins)
+[1.287s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/final_plugins' for CMake module files
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/final_plugins' for CMake config files
+[1.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('final_plugins', 'cmake_prefix_path')
+[1.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/final_plugins/share/final_plugins/hook/cmake_prefix_path.ps1'
+[1.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/final_plugins/share/final_plugins/hook/cmake_prefix_path.dsv'
+[1.292s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/final_plugins/share/final_plugins/hook/cmake_prefix_path.sh'
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/final_plugins/lib'
+[1.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('final_plugins', 'ld_library_path_lib')
+[1.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/final_plugins/share/final_plugins/hook/ld_library_path_lib.ps1'
+[1.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/final_plugins/share/final_plugins/hook/ld_library_path_lib.dsv'
+[1.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/final_plugins/share/final_plugins/hook/ld_library_path_lib.sh'
+[1.295s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/final_plugins/bin'
+[1.296s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/final_plugins/lib/pkgconfig/final_plugins.pc'
+[1.296s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/final_plugins/lib/python3.8/site-packages'
+[1.296s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/final_plugins/bin'
+[1.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/final_plugins/share/final_plugins/package.ps1'
+[1.299s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dawn/final_ws/install/final_plugins/share/final_plugins/package.dsv'
+[1.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/final_plugins/share/final_plugins/package.sh'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/final_plugins/share/final_plugins/package.bash'
+[1.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/final_plugins/share/final_plugins/package.zsh'
+[1.302s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dawn/final_ws/install/final_plugins/share/colcon-core/packages/final_plugins)
+[1.304s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_gazebo)
+[1.306s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo' for CMake module files
+[1.308s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo' for CMake config files
+[1.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_gazebo', 'cmake_prefix_path')
+[1.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/hook/cmake_prefix_path.ps1'
+[1.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/hook/cmake_prefix_path.dsv'
+[1.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/hook/cmake_prefix_path.sh'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo/lib'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo/bin'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo/lib/pkgconfig/tb3_gazebo.pc'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo/lib/python3.8/site-packages'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo/bin'
+[1.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/package.ps1'
+[1.315s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/package.dsv'
+[1.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/package.sh'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/package.bash'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_gazebo/share/tb3_gazebo/package.zsh'
+[1.317s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dawn/final_ws/install/tb3_gazebo/share/colcon-core/packages/tb3_gazebo)
+[1.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dawn/final_ws/build/world_odom_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/world_odom_broadcaster
+[1.322s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/tb3_bringup/bringup' with build type 'ament_cmake'
+[1.323s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/tb3_bringup/bringup'
+[1.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.334s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco_interfaces)
+[1.336s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco_interfaces' for CMake module files
+[1.338s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco_interfaces' for CMake config files
+[1.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'cmake_prefix_path')
+[1.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.ps1'
+[1.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.dsv'
+[1.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/cmake_prefix_path.sh'
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco_interfaces/lib'
+[1.341s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'ld_library_path_lib')
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.ps1'
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.dsv'
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/ld_library_path_lib.sh'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco_interfaces/bin'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco_interfaces/lib/pkgconfig/ros2_aruco_interfaces.pc'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages'
+[1.344s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco_interfaces', 'pythonpath')
+[1.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/pythonpath.ps1'
+[1.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/pythonpath.dsv'
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/hook/pythonpath.sh'
+[1.346s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco_interfaces/bin'
+[1.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.ps1'
+[1.348s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv'
+[1.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.sh'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.bash'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.zsh'
+[1.349s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dawn/final_ws/install/ros2_aruco_interfaces/share/colcon-core/packages/ros2_aruco_interfaces)
+[1.351s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/target_reacher' with build type 'ament_cmake'
+[1.351s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/target_reacher'
+[1.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.360s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(world_odom_broadcaster)
+[1.362s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/world_odom_broadcaster' for CMake module files
+[1.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dawn/final_ws/build/world_odom_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/world_odom_broadcaster
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/world_odom_broadcaster' for CMake config files
+[1.364s] Level 1:colcon.colcon_core.shell:create_environment_hook('world_odom_broadcaster', 'cmake_prefix_path')
+[1.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/hook/cmake_prefix_path.ps1'
+[1.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/hook/cmake_prefix_path.dsv'
+[1.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/hook/cmake_prefix_path.sh'
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/world_odom_broadcaster/lib'
+[1.367s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/world_odom_broadcaster/bin'
+[1.367s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/world_odom_broadcaster/lib/pkgconfig/world_odom_broadcaster.pc'
+[1.367s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/world_odom_broadcaster/lib/python3.8/site-packages'
+[1.367s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/world_odom_broadcaster/bin'
+[1.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/package.ps1'
+[1.369s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/package.dsv'
+[1.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/package.sh'
+[1.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/package.bash'
+[1.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/package.zsh'
+[1.370s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dawn/final_ws/install/world_odom_broadcaster/share/colcon-core/packages/world_odom_broadcaster)
+[1.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dawn/final_ws/build/tb3_bringup': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/final_ws/install/bot_controller:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/tb3_bringup -- -j16 -l16
+[1.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dawn/final_ws/build/target_reacher': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/bot_controller:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic PYTHONPATH=/home/dawn/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages:/home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/dawn/final_ws/build/target_reacher -- -j16 -l16
+[1.399s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(world_odom_broadcaster)
+[1.401s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/world_odom_broadcaster' for CMake module files
+[1.401s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/world_odom_broadcaster' for CMake config files
+[1.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('world_odom_broadcaster', 'cmake_prefix_path')
+[1.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/hook/cmake_prefix_path.ps1'
+[1.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/hook/cmake_prefix_path.dsv'
+[1.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/hook/cmake_prefix_path.sh'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/world_odom_broadcaster/lib'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/world_odom_broadcaster/bin'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/world_odom_broadcaster/lib/pkgconfig/world_odom_broadcaster.pc'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/world_odom_broadcaster/lib/python3.8/site-packages'
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/world_odom_broadcaster/bin'
+[1.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/package.ps1'
+[1.408s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/package.dsv'
+[1.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/package.sh'
+[1.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/package.bash'
+[1.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/world_odom_broadcaster/share/world_odom_broadcaster/package.zsh'
+[1.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dawn/final_ws/install/world_odom_broadcaster/share/colcon-core/packages/world_odom_broadcaster)
+[1.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dawn/final_ws/build/tb3_bringup' returned '0': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/final_ws/install/bot_controller:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/final_ws/build/tb3_bringup -- -j16 -l16
+[1.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dawn/final_ws/build/tb3_bringup': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/final_ws/install/bot_controller:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/tb3_bringup
+[1.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_bringup)
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_bringup' for CMake module files
+[1.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dawn/final_ws/build/tb3_bringup' returned '0': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/final_ws/install/bot_controller:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/final_ws/build/tb3_bringup
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_bringup' for CMake config files
+[1.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_bringup', 'cmake_prefix_path')
+[1.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/hook/cmake_prefix_path.ps1'
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/hook/cmake_prefix_path.dsv'
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/hook/cmake_prefix_path.sh'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_bringup/bin'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_bringup/lib/pkgconfig/tb3_bringup.pc'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_bringup/lib/python3.8/site-packages'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_bringup/bin'
+[1.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/package.ps1'
+[1.473s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/package.dsv'
+[1.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/package.sh'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/package.bash'
+[1.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/package.zsh'
+[1.475s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dawn/final_ws/install/tb3_bringup/share/colcon-core/packages/tb3_bringup)
+[1.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_bringup)
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_bringup' for CMake module files
+[1.505s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_bringup' for CMake config files
+[1.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_bringup', 'cmake_prefix_path')
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/hook/cmake_prefix_path.ps1'
+[1.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/hook/cmake_prefix_path.dsv'
+[1.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/hook/cmake_prefix_path.sh'
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_bringup/bin'
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_bringup/lib/pkgconfig/tb3_bringup.pc'
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_bringup/lib/python3.8/site-packages'
+[1.509s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_bringup/bin'
+[1.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/package.ps1'
+[1.511s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/package.dsv'
+[1.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/package.sh'
+[1.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/package.bash'
+[1.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_bringup/share/tb3_bringup/package.zsh'
+[1.512s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dawn/final_ws/install/tb3_bringup/share/colcon-core/packages/tb3_bringup)
+[1.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco': PYTHONPATH=/home/dawn/final_ws/build/ros2_aruco/prefix_override:/home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/ros2_aruco build --build-base /home/dawn/final_ws/build/ros2_aruco/build install --record /home/dawn/final_ws/build/ros2_aruco/install.log --install-scripts $base/lib/ros2_aruco --single-version-externally-managed
+[1.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/tb3_bringup/tb3_gazebo_spawner': PYTHONPATH=/home/dawn/final_ws/build/tb3_gazebo_spawner/prefix_override:/home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/tb3_gazebo_spawner build --build-base /home/dawn/final_ws/build/tb3_gazebo_spawner/build install --record /home/dawn/final_ws/build/tb3_gazebo_spawner/install.log --install-scripts $base/lib/tb3_gazebo_spawner --single-version-externally-managed
+[1.894s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco' for CMake module files
+[1.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/ros2_aruco/ros2_aruco' returned '0': PYTHONPATH=/home/dawn/final_ws/build/ros2_aruco/prefix_override:/home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/ros2_aruco build --build-base /home/dawn/final_ws/build/ros2_aruco/build install --record /home/dawn/final_ws/build/ros2_aruco/install.log --install-scripts $base/lib/ros2_aruco --single-version-externally-managed
+[1.896s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco' for CMake config files
+[1.897s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco/lib'
+[1.897s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco/bin'
+[1.897s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco/lib/pkgconfig/ros2_aruco.pc'
+[1.898s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages'
+[1.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_aruco', 'pythonpath')
+[1.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.ps1'
+[1.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.dsv'
+[1.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/ros2_aruco/share/ros2_aruco/hook/pythonpath.sh'
+[1.902s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/ros2_aruco/bin'
+[1.902s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_aruco)
+[1.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/ros2_aruco/share/ros2_aruco/package.ps1'
+[1.905s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dawn/final_ws/install/ros2_aruco/share/ros2_aruco/package.dsv'
+[1.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/ros2_aruco/share/ros2_aruco/package.sh'
+[1.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/ros2_aruco/share/ros2_aruco/package.bash'
+[1.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/ros2_aruco/share/ros2_aruco/package.zsh'
+[1.907s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dawn/final_ws/install/ros2_aruco/share/colcon-core/packages/ros2_aruco)
+[1.911s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo_spawner' for CMake module files
+[1.912s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/tb3_bringup/tb3_gazebo_spawner' returned '0': PYTHONPATH=/home/dawn/final_ws/build/tb3_gazebo_spawner/prefix_override:/home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/tb3_gazebo_spawner build --build-base /home/dawn/final_ws/build/tb3_gazebo_spawner/build install --record /home/dawn/final_ws/build/tb3_gazebo_spawner/install.log --install-scripts $base/lib/tb3_gazebo_spawner --single-version-externally-managed
+[1.913s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo_spawner' for CMake config files
+[1.913s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo_spawner/lib'
+[1.913s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo_spawner/bin'
+[1.914s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo_spawner/lib/pkgconfig/tb3_gazebo_spawner.pc'
+[1.914s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages'
+[1.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('tb3_gazebo_spawner', 'pythonpath')
+[1.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/tb3_gazebo_spawner/share/tb3_gazebo_spawner/hook/pythonpath.ps1'
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/tb3_gazebo_spawner/share/tb3_gazebo_spawner/hook/pythonpath.dsv'
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/tb3_gazebo_spawner/share/tb3_gazebo_spawner/hook/pythonpath.sh'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/tb3_gazebo_spawner/bin'
+[1.918s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tb3_gazebo_spawner)
+[1.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_gazebo_spawner/share/tb3_gazebo_spawner/package.ps1'
+[1.921s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dawn/final_ws/install/tb3_gazebo_spawner/share/tb3_gazebo_spawner/package.dsv'
+[1.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_gazebo_spawner/share/tb3_gazebo_spawner/package.sh'
+[1.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_gazebo_spawner/share/tb3_gazebo_spawner/package.bash'
+[1.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/tb3_gazebo_spawner/share/tb3_gazebo_spawner/package.zsh'
+[1.923s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dawn/final_ws/install/tb3_gazebo_spawner/share/colcon-core/packages/tb3_gazebo_spawner)
+[11.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dawn/final_ws/build/target_reacher' returned '0': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/bot_controller:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic PYTHONPATH=/home/dawn/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages:/home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/dawn/final_ws/build/target_reacher -- -j16 -l16
+[11.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dawn/final_ws/build/target_reacher': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/bot_controller:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic PYTHONPATH=/home/dawn/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages:/home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/dawn/final_ws/build/target_reacher
+[11.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(target_reacher)
+[11.617s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/target_reacher' for CMake module files
+[11.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dawn/final_ws/build/target_reacher' returned '0': CMAKE_PREFIX_PATH=/home/dawn/final_ws/install/ros2_aruco_interfaces:/home/dawn/final_ws/install/bot_controller:/home/dawn/final_ws/install/world_odom_broadcaster:/home/dawn/final_ws/install/tb3_bringup:/home/dawn/final_ws/install/tb3_gazebo:/home/dawn/final_ws/install/target_reacher:/home/dawn/final_ws/install/odom_updater:/home/dawn/final_ws/install/final_plugins:/home/dawn/ros2_ws/install/tb3:/home/dawn/ros2_ws/install/first_package:/home/dawn/ros2_ws/install/av_server_multi:/home/dawn/ros2_ws/install/av_server:/home/dawn/ros2_ws/install/av_camera:/home/dawn/final_ws/install/tb3_gazebo_spawner:/home/dawn/final_ws/install/ros2_aruco:/opt/ros/galactic PYTHONPATH=/home/dawn/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/dawn/final_ws/install/tb3_gazebo_spawner/lib/python3.8/site-packages:/home/dawn/final_ws/install/ros2_aruco/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/dawn/final_ws/build/target_reacher
+[11.618s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/target_reacher' for CMake config files
+[11.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('target_reacher', 'cmake_prefix_path')
+[11.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/target_reacher/share/target_reacher/hook/cmake_prefix_path.ps1'
+[11.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/target_reacher/share/target_reacher/hook/cmake_prefix_path.dsv'
+[11.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/target_reacher/share/target_reacher/hook/cmake_prefix_path.sh'
+[11.622s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/target_reacher/lib'
+[11.622s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/target_reacher/bin'
+[11.622s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/target_reacher/lib/pkgconfig/target_reacher.pc'
+[11.623s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/target_reacher/lib/python3.8/site-packages'
+[11.623s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/target_reacher/bin'
+[11.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/target_reacher/share/target_reacher/package.ps1'
+[11.625s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dawn/final_ws/install/target_reacher/share/target_reacher/package.dsv'
+[11.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/target_reacher/share/target_reacher/package.sh'
+[11.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/target_reacher/share/target_reacher/package.bash'
+[11.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/target_reacher/share/target_reacher/package.zsh'
+[11.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dawn/final_ws/install/target_reacher/share/colcon-core/packages/target_reacher)
+[11.651s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(target_reacher)
+[11.653s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/target_reacher' for CMake module files
+[11.653s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/target_reacher' for CMake config files
+[11.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('target_reacher', 'cmake_prefix_path')
+[11.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/target_reacher/share/target_reacher/hook/cmake_prefix_path.ps1'
+[11.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dawn/final_ws/install/target_reacher/share/target_reacher/hook/cmake_prefix_path.dsv'
+[11.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dawn/final_ws/install/target_reacher/share/target_reacher/hook/cmake_prefix_path.sh'
+[11.656s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/target_reacher/lib'
+[11.657s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/target_reacher/bin'
+[11.657s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/target_reacher/lib/pkgconfig/target_reacher.pc'
+[11.657s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/target_reacher/lib/python3.8/site-packages'
+[11.657s] Level 1:colcon.colcon_core.environment:checking '/home/dawn/final_ws/install/target_reacher/bin'
+[11.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/target_reacher/share/target_reacher/package.ps1'
+[11.659s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dawn/final_ws/install/target_reacher/share/target_reacher/package.dsv'
+[11.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/target_reacher/share/target_reacher/package.sh'
+[11.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/target_reacher/share/target_reacher/package.bash'
+[11.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/dawn/final_ws/install/target_reacher/share/target_reacher/package.zsh'
+[11.660s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dawn/final_ws/install/target_reacher/share/colcon-core/packages/target_reacher)
+[11.661s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.661s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.661s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.662s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.670s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.670s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.670s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.690s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.692s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dawn/final_ws/install/local_setup.ps1'
+[11.693s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dawn/final_ws/install/_local_setup_util_ps1.py'
+[11.694s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dawn/final_ws/install/setup.ps1'
+[11.696s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dawn/final_ws/install/local_setup.sh'
+[11.697s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dawn/final_ws/install/_local_setup_util_sh.py'
+[11.697s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dawn/final_ws/install/setup.sh'
+[11.699s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dawn/final_ws/install/local_setup.bash'
+[11.700s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dawn/final_ws/install/setup.bash'
+[11.701s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dawn/final_ws/install/local_setup.zsh'
+[11.702s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dawn/final_ws/install/setup.zsh'

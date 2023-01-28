@@ -1,0 +1,4 @@
+Invoking command in '/home/dawn/ros2_ws/build/av_server_multi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/ros2_ws/build/av_server_multi -- -j16 -l16
+Invoked command in '/home/dawn/ros2_ws/build/av_server_multi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/dawn/ros2_ws/build/av_server_multi -- -j16 -l16
+Invoking command in '/home/dawn/ros2_ws/build/av_server_multi': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/ros2_ws/build/av_server_multi
+Invoked command in '/home/dawn/ros2_ws/build/av_server_multi' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/dawn/ros2_ws/build/av_server_multi
