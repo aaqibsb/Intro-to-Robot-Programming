@@ -1,0 +1,10 @@
+
+------------------------------------------------------------------------
+Build the application
+------------------------------------------------------------------------
+g++ -std=c++17 -g main.cpp simulator/simulator.cpp <add other files here> -o main
+
+------------------------------------------------------------------------
+To switch between left-hand rule approach and right-hand rule approach
+------------------------------------------------------------------------
+Explain what to modify in your code to switch between the left-hand rule and the right-hand rule approaches
