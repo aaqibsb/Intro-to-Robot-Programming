@@ -1,0 +1,15 @@
+material two
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture 2.png
+        filtering anisotropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

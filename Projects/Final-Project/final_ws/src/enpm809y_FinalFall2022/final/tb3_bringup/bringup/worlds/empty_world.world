@@ -1,0 +1,433 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+    <world name="default">
+
+        
+
+        <!-- <include>
+            <name>workcell_floor</name>
+            <uri>model://floor</uri>
+            <pose>10 0 0 0 0 0</pose>
+        </include> -->
+
+        <include>
+            <uri>model://sun</uri>
+        </include>
+
+        <scene>
+            <shadows>0</shadows>
+            <grid>0</grid>
+            <origin_visual>1</origin_visual>
+            <!-- <ambient>0.25 0.25 0.25 1</ambient>
+            <background>0.5 0.5 0.5 1</background> -->
+        </scene>
+
+        <include>
+            <uri>model://ground_plane</uri>
+        </include>
+
+        <gui fullscreen='0'>
+            <camera name='user_camera'>
+                <pose frame=''>9.9926 -1.33927 8.62755 -0 0.829802 2.77679</pose>
+                <view_controller>orbit</view_controller>
+                <projection_type>perspective</projection_type>
+            </camera>
+        </gui>
+
+        <physics type="ode">
+            <real_time_update_rate>1000.0</real_time_update_rate>
+            <max_step_size>0.001</max_step_size>
+            <real_time_factor>1</real_time_factor>
+            <ode>
+                <solver>
+                    <type>quick</type>
+                    <iters>150</iters>
+                    <precon_iters>0</precon_iters>
+                    <sor>1.400000</sor>
+                    <use_dynamic_moi_rescaling>1</use_dynamic_moi_rescaling>
+                </solver>
+                <constraints>
+                    <cfm>0.00001</cfm>
+                    <erp>0.2</erp>
+                    <contact_max_correcting_vel>2000.000000</contact_max_correcting_vel>
+                    <contact_surface_layer>0.01000</contact_surface_layer>
+                </constraints>
+            </ode>
+        </physics>
+
+        <model name='ros_symbol'>
+            <static>1</static>
+            <link name='symbol'>
+
+                <visual name='yellow_dot'>
+                    <pose>-2.0 -2.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.25</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Yellow</name>
+                        </script>
+                    </material>
+                </visual>
+                <visual name='yellow_dot_one'>
+                    <pose>-1.0 -1.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.15</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Yellow</name>
+                        </script>
+                    </material>
+                </visual>
+                <visual name='yellow_dot_two'>
+                    <pose>-1.0 -3.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.15</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Yellow</name>
+                        </script>
+                    </material>
+                </visual>
+                <visual name='yellow_dot_three'>
+                    <pose>-3.0 -3.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.15</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Yellow</name>
+                        </script>
+                    </material>
+                </visual>
+                <visual name='yellow_dot_four'>
+                    <pose>-3.0 -1.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.15</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Yellow</name>
+                        </script>
+                    </material>
+                </visual>
+
+
+
+                <visual name='blue_dot'>
+                    <pose>2.0 -2.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.25</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Blue</name>
+                        </script>
+                    </material>
+                </visual>
+                <visual name='blue_dot_one'>
+                    <pose>1.0 -1.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.15</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Blue</name>
+                        </script>
+                    </material>
+                </visual>
+                <visual name='blue_dot_two'>
+                    <pose>1.0 -3.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.15</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Blue</name>
+                        </script>
+                    </material>
+                </visual>
+                <visual name='blue_dot_three'>
+                    <pose>3.0 -1.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.15</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Blue</name>
+                        </script>
+                    </material>
+                </visual>
+                <visual name='blue_dot_four'>
+                    <pose>3.0 -3.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.15</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Blue</name>
+                        </script>
+                    </material>
+                </visual>
+                <visual name='red_dot'>
+                    <pose>2.0 2.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.25</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Red</name>
+                        </script>
+                    </material>
+                </visual>
+                <visual name='red_dot_one'>
+                    <pose>1.0 1.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.15</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Red</name>
+                        </script>
+                    </material>
+                </visual>
+                <visual name='red_dot_two'>
+                    <pose>1.0 3.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.15</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Red</name>
+                        </script>
+                    </material>
+                </visual>
+                <visual name='red_dot_three'>
+                    <pose>3.0 1.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.15</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Red</name>
+                        </script>
+                    </material>
+                </visual>
+                <visual name='red_dot_four'>
+                    <pose>3.0 3.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.15</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Red</name>
+                        </script>
+                    </material>
+                </visual>
+                <visual name='green_dot'>
+                    <pose>-2.0 2.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.25</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Green</name>
+                        </script>
+                    </material>
+                </visual>
+                <visual name='green_dot_one'>
+                    <pose>-1.0 1.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.15</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Green</name>
+                        </script>
+                    </material>
+                </visual>
+                <visual name='green_dot_two'>
+                    <pose>-1.0 3.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.15</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Green</name>
+                        </script>
+                    </material>
+                </visual>
+                <visual name='green_dot_three'>
+                    <pose>-3.0 1.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.15</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Green</name>
+                        </script>
+                    </material>
+                </visual>
+                <visual name='green_dot_four'>
+                    <pose>-3.0 3.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.15</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/Green</name>
+                        </script>
+                    </material>
+                </visual>
+                <visual name='white_dot'>
+                    <pose>5.0 5.0 0.0 0 0 0</pose>
+                    <geometry>
+                        <cylinder>
+                            <radius>0.25</radius>
+                            <length>0.01</length>
+                        </cylinder>
+                    </geometry>
+                    <material>
+                        <script>
+                            <uri>file://media/materials/scripts/gazebo.material</uri>
+                            <name>Gazebo/White</name>
+                        </script>
+                    </material>
+                </visual>
+                </link>
+        </model>
+
+        <model name="one">
+            <static>1</static>
+            <include>
+                <uri>model://one</uri>
+                <pose>2 2 0.03 0 -1.57 0</pose>
+            </include>
+        </model>
+
+        <model name="two">
+            <static>1</static>
+            <include>
+                <uri>model://two</uri>
+                <pose>-2.0 -2.0 0.03 0 -1.57 0</pose>
+            </include>
+        </model>
+
+        <model name="three">
+            <static>1</static>
+            <include>
+                <uri>model://three</uri>
+                <pose>-2.0 2.0 0.03 0 -1.57 0</pose>
+            </include>
+        </model>
+
+        <model name="four">
+            <static>1</static>
+            <include>
+                <uri>model://four</uri>
+                <pose>2.0 -2.0 0.03 0 -1.57 0</pose>
+            </include>
+        </model>
+
+
+
+        <model name="aruco_marker_0">
+            <static>1</static>
+            <include>
+                <uri>model://aruco_marker_0</uri>
+                <pose>5.0 5.0 0.2 0 0 0</pose>
+            </include>
+        </model>
+
+        
+
+        <!-- <include>
+            <uri>model://aruco_marker_0</uri>
+            <pose>5.0 5.0 0.4 0 2.1 0</pose>
+        </include> -->
+
+    </world>
+</sdf>

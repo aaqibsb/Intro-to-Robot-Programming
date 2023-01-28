@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/galactic/include/**",
+        "/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/include/**",
+        "/usr/include/**",
+        "/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/odom_updater/include",
+        "/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/world_odom_broadcaster/include/world_odom_broadcaster",
+        "/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/target_reacher/include",
+        "/home/dawn/final_ws/src/enpm809y_FinalFall2022/final/bot_controller/include", 
+        "/home/dawn/final_ws/install/ros2_aruco_interfaces/include"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
